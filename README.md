@@ -4,7 +4,7 @@
 
 ## Database Systems
 Here we list various database systems in the scope of media platform / archive / DAM.  
-[&rarr; Database Systems](Digitalisierung)
+[&rarr; Database Systems](Database-Systems)
 
 &nbsp;
 
