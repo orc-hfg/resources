@@ -1,6 +1,3 @@
-<!-- # Wiki
-https://github.com/orc-hfg/digitalisierung/wiki -->
-
 # Informationen zur Digitalisierung von Medien: Formate, Codecs, Workflows.
 
 &nbsp;
