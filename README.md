@@ -1,7 +1,7 @@
 ORC /// HfG Karlsruhe  
 Collection of resources
 
-[Digitalisierung](./Digitalisierung)
+[Digitalisierung](Digitalisierung)
 
 
 ## Wiki
