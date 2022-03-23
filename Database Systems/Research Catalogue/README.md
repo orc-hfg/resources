@@ -1,6 +1,10 @@
+# Research Catalogue
+
 - International database for artistic research  
 - Open space for experimentation and exchange  
 - Network of academic institutions (focus on art)
+
+&nbsp;
 
 Website  
 https://www.researchcatalogue.net/  
