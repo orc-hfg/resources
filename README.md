@@ -4,7 +4,7 @@
 &nbsp;
 
 ## 1. Digitalisierung
-Dieses Repository enthält Informationen, Anweisungen und Workflows für die [&rarr; Digitalisierung](digitalisierung) von Medienformaten.  
+Dieses Repository enthält Informationen, Anweisungen und Workflows für die [&rarr; Digitalisierung](Digitalisierung) von Medienformaten.  
 
 &nbsp;
 
