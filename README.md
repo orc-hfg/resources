@@ -1,23 +1,12 @@
 # ORC /// HfG Karlsruhe – Collection of resources
 
-&nbsp;
-
-## Database Systems
-Here we list various database systems in the scope of media platform / archive / DAM.  
-[&rarr; Database Systems](database-systems)
 
 &nbsp;
 
-## Digitalisierung
-Informationen und Workflows für die Digitalisierung von verschiedenen Medienformaten.  
-[&rarr; Digitalisierung](digitalisierung)
+## 1. Digitalisierung
+Dieses Repository enthält Informationen, Anweisungen und Workflows für die [&rarr; Digitalisierung](digitalisierung) von Medienformaten.  
 
 &nbsp;
 
-## Standards for Archiving
-An incomplete (and growing) list of archival standards.  
-[&rarr; Standards for Archiving](standards-for-archiving)
-
-<!-- 
-## Wiki
-https://github.com/orc-hfg/ressources/wiki -->
+## 2. Recherche und Informationen
+In unserem [&rarr; Wiki](https://github.com/orc-hfg/ressources/wiki) sammeln wir unterschiedliche Ressourcen, die mit unserer Arbeit in Zusammenhang stehen, unter anderem unterschiedliche Datenbanksysteme im Bereich Medienplattform/Archiv/DAM oder internationale Standards für die Archivierung.

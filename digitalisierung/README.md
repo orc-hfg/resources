@@ -1,4 +1,4 @@
-# Informationen zur Digitalisierung von Medien: Formate, Codecs, Workflows.
+# Hilfe zur Digitalisierung von Medien: Formate, Codecs, Workflows.
 
 &nbsp;
 
