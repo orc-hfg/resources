@@ -1,6 +1,4 @@
-# ORC /// HfG Karlsruhe
-
-&nbsp;
+**ORC /// HfG Karlsruhe**
 
 Dieses Repository enthält Informationen, Anweisungen und Workflows für die von Medienformaten.  
 
