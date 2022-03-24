@@ -128,3 +128,12 @@ https://github.com/bleskodev/rubyripper
 
 Linux: CD-Rippers  
 https://www.tomshardware.com/reviews/ubuntu-linux-audio-software,2856-8.html
+
+&nbsp;
+
+## Weitere Ressourcen
+
+**Bitsgalore**  
+*digital preservation - file formats*  
+Preserving optical media from the command-line (2015)  
+https://www.bitsgalore.org/2015/11/13/preserving-optical-media-from-the-command-line
