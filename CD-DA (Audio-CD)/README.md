@@ -137,3 +137,6 @@ https://www.tomshardware.com/reviews/ubuntu-linux-audio-software,2856-8.html
 *digital preservation - file formats*  
 Preserving optical media from the command-line (2015)  
 https://www.bitsgalore.org/2015/11/13/preserving-optical-media-from-the-command-line
+
+**Optical Media Preservation**  
+[optical-media-preservation.pdf](https://raw.githubusercontent.com/wiki/orc-hfg/resources/optical-media-preservation.pdf)
