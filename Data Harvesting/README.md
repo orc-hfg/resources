@@ -1,6 +1,6 @@
 # Daten von Websites automatisiert auslesen und strukturiert in einer Tabelle speichern
 
-> Einen strukturierten Datensatz aus den Vorlesungsverzeichnissen (VVZ) der HfG erzeugen, um die Daten in andere (Datenbank-)Systeme zu importieren. Die VVZ zwischen Sommersemester 2003 und 2022 sind online abrufbar unter https://www.hfg-karlsruhe.de/vorlesungsverzeichnis/ (Stand Mai 2022).
+> ZIEL: Einen strukturierten Datensatz aus den Vorlesungsverzeichnissen (VVZ) der HfG erzeugen, um die Daten in andere (Datenbank-)Systeme zu importieren. Die VVZ zwischen Sommersemester 2003 und 2022 sind online abrufbar unter https://www.hfg-karlsruhe.de/vorlesungsverzeichnis/ (Stand Mai 2022).
 
 
 ![](img/liste-1.jpg)
