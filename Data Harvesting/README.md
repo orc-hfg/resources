@@ -3,7 +3,7 @@
 > **Ziel**: Das Vorlesungsverzeichnis der HfG als strukturierten Datensatz vorliegen zu haben, um es in andere (Datenbank-)systeme zu importieren.
 
 
-![](liste-1.jpg)
+![](img/liste-1.jpg)
 
 Für das Website Scraping / Web Harvesting kann man entweder ein Tool mit visueller Oberfläche verwenden (Point-and-Click) oder ein Script schreiben (Python).
 
@@ -36,32 +36,32 @@ Aufwendig aber leider nötig. Denn die Seiten enthalten ungültige Zeichen, wesh
 
 Die heruntergeladenen Seiten müssen auf ungültige Zeichen durchsucht werden. Jeder gängige Code-Editor bzw. IDE eignet sich. Wir haben VSCodium und eine Kombination aus multireplace und händischer Korrektur verwendet. 
 
-![](vscodium.jpg)
+![](img/vscodium.jpg)
 
 ### Lokale HTML-Seiten im Browser zugänglich machen
 
 Octoparse liest Seiten über HTTP aus. Wir haben die lokalen HTML-Seiten über die lokale Serverumgebung [Laravel Valet](https://laravel.com/docs/9.x/valet) verfügbar gemacht. Alternative Software: XAMPP MAMP.
 
-![](vvz-lokal.jpg)
+![](img/vvz-lokal.jpg)
 
 ### Octoparse: Liste der URLs anlegen und eintragen
 
 Aus den heruntergeladenen Seiten haben wir eine Liste aller lokalen http-Adressen erzeugt.
 
-![](octoparse-urls.jpg)
+![](img/octoparse-urls.jpg)
 
 ### Octoparse: Abschnitte definieren, die ausgelesen werden sollen
 
 Hier beginnt die eigentliche Arbeit beim harvesten. Es ist eine komplizierte Sache und kann recht langwierig sein, abhängig vom Website-Layout. In unserem war die Zuordnung der Fachbereiche zu den Veranstaltungen besonders kompliziert. Im Template wird jeder Fachbereich als gruppiert ausgegeben, wobei der Name des Fachbereichs nur einmal als Titel der Section erscheint. Dadurch ist ein einfacher Loop nicht möglich. Letztendlich liest das Skript nun den Fachbereich von der Detailseite aus, wo er glücklicher Weise auch ausgegeben wird – nur nicht im Sommersemester 2022. Die Fehlstellen mussten manuell nachgetragen werden.
 
-![](octoparse-task.jpg)
+![](img/octoparse-task.jpg)
 
 
 ### Octoparse: Script starten
 
 Weil die Seminarbeschreibungen online abgerufen werden, dauert der Prozess sehr lange. Nur die lokalen Seiten auszulesen, geht deutlich schneller.
 
-![](octoparse-running.jpg)
+![](img/octoparse-running.jpg)
 
 &nbsp;
 
@@ -105,19 +105,19 @@ Um Strings zu trennen erzeugen wir ein eindeutiges Zeichen zwischen Namen. Glüc
 
 **Wichtig:** Diese Liste (Personen durch Semikolon getrennt) wird später noch gebraucht &rarr; zwischenspeichern!
 
-![](cleanup-names.jpg)
+![](img/cleanup-names.jpg)
 
 In einem neuen Arbeitsblatt wählen wir `Text import` und definieren das Semikolon als Trennzeichen. Dadurch wird pro Zeile jeder Name in eine eigene Spalte geschrieben. 
 
-![](text-import.jpg)
-![](personen-dozenten.jpg)
+![](img/text-import.jpg)
+![](img/personen-dozenten.jpg)
 
 Diese Spalten können wir dann in die Master-Liste einfügen.  
 **Wichtig:** Die Zuordnung der Dozenten zu den Veranstaltungen geschieht über die Zeilennummern. Die neue Liste muss also an die richtige Stelle eingefügt werden: 
 1. alle Zeilen und Spalten markieren
 2. in der Master-Liste in die erste leere Spalte rechts, oberste Zeile einfügen
 
-![](dozenten-spalten.jpg)
+![](img/dozenten-spalten.jpg)
 
 &nbsp; 
 
@@ -139,7 +139,7 @@ Ggf. sortierte Liste bereinigen: Leerzeichen am Wortanfang löschen.
 **OpenOffice**  
 1. Liste sortieren
 2. Distinkte Liste erzeugen (Duplikate löschen)
-   ![](personen-unique.jpg)
+   ![](img/personen-unique.jpg)
 3. Liste ohne Duplikate manuell prüfen:
    - Verschiedene Schreibweisen desselben Namens zusammenführen; eine Haupt-Schreibweise festlegen; Varianten in Spalten neben der Hauptschreibweise dokumentieren.  
    &rarr; Varianten in ursprünglicher Liste suchen und durch Hauptschreibweise ersetzen `suchen & ersetzen`  
@@ -155,8 +155,8 @@ Ggf. sortierte Liste bereinigen: Leerzeichen am Wortanfang löschen.
 
 #### Distinkte Liste erzeugen (Duplikate löschen)
 
-![](fb-aufraeumen.jpg)
-![](fb-eindeutig.jpg)
+![](img/fb-aufraeumen.jpg)
+![](img/fb-eindeutig.jpg)
 
 
 #### Liste bereinigen
@@ -167,7 +167,7 @@ Einträge der bereinigten Liste in der "Fachbereich"-Spalte der Master-Liste `su
 
 Fehlende Fachbereiche recherchieren und nachtragen.
 
-![](fb-fehlende.jpg)
+![](img/fb-fehlende.jpg)
 
 &nbsp;
 
@@ -178,7 +178,7 @@ Jeder Knoten, den wir referenzieren wollen, braucht eine **eindeutige ID**.
 - Personen: p001  
 - Fachbereiche: fb01  
 
-![](personen-ids.jpg)
+![](img/personen-ids.jpg)
 
 #### Beziehungen
 
@@ -187,7 +187,7 @@ Excel-Funktion `XVERWEIS` verwenden.
 Formel für die Fachbereiche:  
 `XVERWEIS(F2;FACHBEREICHE::Tabelle 1::Name;FACHBEREICHE::Tabelle 1::ID;)`  
 
-![](fb-xverweis.jpg)
+![](img/fb-xverweis.jpg)
 
 #### Beziehungen Person-Veranstaltung-Fachbereich
 
@@ -197,13 +197,13 @@ Diese Liste wird manuell generiert – ein aufwendiger und fehleranfälliger Sc
 
 Jede Spalte `Dozenten` mit der Spalte `VeranstaltungID` kopieren. 
 
-![](beziehungen-herstellen-1.jpg)
+![](img/beziehungen-herstellen-1.jpg)
 
 Die einzelnen Tabellen zu einer langen, eindimensionalen Tabelle verbinden (jeweils kopieren und am unteren Ende einfügen). Das Resultat ist eine eindimensionale Liste aller Dozenten je Veranstaltung mit der korrespondierenden `VeranstaltungsID`.  
 
 Diese Liste ist die Grundlage der Tabelle `Beziehungen`.  
 
-![](beziehungen.jpg)
+![](img/beziehungen.jpg)
 
 `PersonID` und `FachbereichID` werden dynamisch erzeugt. Es sind Referenzen auf die Tabellen `VVZ` und `Personen`.
 
@@ -230,16 +230,16 @@ Neue Datenbank-Instanz:
 - GCP Region: Belgium (europe-west1)
 - Starting dataset: Load or create your own data in a blank instance
 
-![](neo4j-new.jpg)
+![](img/neo4j-new.jpg)
 
 Im nächsten Schritt wird das Passwort für die Datenbank angezeigt. Es muss abgespeichert werden, weil es später beim Import und jeder anderen Abfrage bzw. Manipulation gebraucht wird.
 
 Neo4j bietet einen Importer an.  
 [Youtube-Tutorial](https://youtu.be/vI2XZOf4hVY)
 
-![](neo4j-import.jpg)
+![](img/neo4j-import.jpg)
 
-![](neo4j-importer-0.jpg)
+![](img/neo4j-importer-0.jpg)
 
 Zunächst definieren wir das Modell. Eine Graphdatenbank besteht aus Nodes und Relations, Knoten und Verbindungen/Kanten. Wir definieren den schematischen Aufbau unserer Datenbank. Sie besteht aus drei `node`-Typen – Veranstaltung, Person, Fachbereich – und den Beziehungen untereinander.
 
@@ -247,7 +247,7 @@ Zunächst definieren wir das Modell. Eine Graphdatenbank besteht aus Nodes und R
 
 Mit `Add node` erzeugen wir drei Nodes.
 
-![](neo4j-importer-1.jpg)
+![](img/neo4j-importer-1.jpg)
 
 Spätestens jetzt brauchen wir Daten. Als Datenbasis exportieren wir die Master-Liste als `CSV`. Es bietet sich an, für jede Mappe eine eigene Datei zu exportieren. In unserem Fall:
 
@@ -258,33 +258,33 @@ Spätestens jetzt brauchen wir Daten. Als Datenbasis exportieren wir die Master-
 
 Diese Dateien importieren wir per `drag & drop` in die linke Spalte des Neo4j-Importers. Nun sind unsere Daten hier verfügbar. Wir verknüpfen die Nodes mit den jeweiligen Dateien...  
 
-![](neo4j-importer-2.jpg)
+![](img/neo4j-importer-2.jpg)
 
 ...und wählen die Properties, die wir importieren wollen.  
 
-![](neo4j-importer-3.jpg)
+![](img/neo4j-importer-3.jpg)
 
 Wichtig ist, zu definieren, welche Proprty als ID verwendet werden soll, um eindeutige Zuordnungen zu gewährleisten. Zu diesem Zweck hatten wir weiter oben an jede Person eine eindeutige ID vergeben.  
 
-![](neo4j-importer-4.jpg)
+![](img/neo4j-importer-4.jpg)
 
 Bei der Node `Veranstaltung` importieren wir nicht alle Properties. Die Tabelle enthält mehr Informationen, als wir an dieser Stelle brauchen:
 - `Fachbereich` soll als Relation zur Node "Fachbereich" erzeugt werden (nicht als Property)
 - `FachbereichID` wird für eben diese Relation verwendet
 - `Dozent 1` etc. soll ebenfalls als Relation entstehen. Die Zuordnung befindet sich in `Beziehungen.csv`
 
-![](neo4j-importer-5.jpg)
+![](img/neo4j-importer-5.jpg)
 
 #### Relations
 
 Relationen können einfach mit der Maus gezogen werden. Wir definieren zunächst die Relation `IST_DOZENT` zwischen `Personen` &rarr; `Veranstaltungen`. Den Namen dieser Relation vergeben wir möglichst sprechend und einfach. 
 
-![](neo4j-importer-6.jpg)
+![](img/neo4j-importer-6.jpg)
 
 Die Zuordnung befindet sich in der Datei `Beziehungen.csv`, die wir bei "File" auswählen. Die eigentliche Zuordnung muss aber noch definiert werden. Dazu wählen wir welche IDs miteinander in Relation gesetzt werden sollen: `From` / `To`. 
 
-![](neo4j-importer-7.jpg)
-![](neo4j-importer-8.jpg)
+![](img/neo4j-importer-7.jpg)
+![](img/neo4j-importer-8.jpg)
 
 Damit ist die erste Relation definiert. Der Relation selbst könnten noch Properties mitgegeben werden, was aber in diesem Fall nicht nötig ist.
 
@@ -292,16 +292,16 @@ Dasselbe wiederholen wir für die `TEIL_VON`-Relationen
 `Person` &rarr; `Fachbereich`  
 `Veranstaltung` &rarr; `Fachbereich`
 
-![](neo4j-importer-9.jpg)
+![](img/neo4j-importer-9.jpg)
 
 Klick auch **Run Import**. Der Importer fragt nach dem Passwort der Datenbank (siehe oben).
 
 Import erfolgreich.
 
-![](neo4j-importer-10.jpg)
+![](img/neo4j-importer-10.jpg)
 
 Neo4j bietet zwei Werkzeuge für die Abfrage der Graphdatenbank an, den "Neo4j Browser" und "Bloom". Der "Browser" kann direkt hier gestartet werden.
 
 Eine erste Abfrage:
 
-![](neo4j-browser.jpg)
+![](img/neo4j-browser.jpg)
