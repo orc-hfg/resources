@@ -15,7 +15,7 @@ Das anschließende Aufbereiten der Daten ist extrem wichtig – und zeitaufwend
 
 ```mermaid
 graph TD
-    A(Webpages parsen) -->|Daten exportieren| B(Daten aufbereiten) --> C(Daten importieren/weiterverarbeiten)
+    A(Webpages parsen) -->|Daten exportieren| B(Daten aufbereiten) -->|Daten exportieren| C(Daten importieren/weiterverarbeiten)
 ```
 
 &nbsp;
