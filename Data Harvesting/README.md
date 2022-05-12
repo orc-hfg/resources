@@ -77,7 +77,11 @@ Die Daten müssen lokal gespeichert werden. Die Software bietet verschiedene For
 
 # Daten aufbereiten
 
-Das Aufbereiten der Daten ist extrem wichtig – und zeitaufwendig. Nur strukturierte und bereinigte Daten können sinnvoll weiterverarbeitet werden. 
+Das Aufbereiten der Daten ist extrem wichtig – und zeitaufwendig.  
+Nur strukturierte und bereinigte Daten können sinnvoll weiterverarbeitet werden.  
+Octoparse erzeugt eine Liste wie diese:
+
+![](img/octoparse-export.jpg)
 
 ## Personen/Namen
 
