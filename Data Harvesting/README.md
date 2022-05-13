@@ -30,13 +30,15 @@ Hinzu kommt, dass die HfG-Website das Vorlesungsverzeichnis per AJAX lädt. Octo
 
 Wir haben also alle Semester aus dem [Online-VVZ](https://www.hfg-karlsruhe.de/vorlesungsverzeichnis/) als einzelne Seiten heruntergeladen ("Speichern unter..." im Browser).
 
-### HTML Code säubern
+### Optional: HTML Code säubern
 
-Aufwendig aber leider nötig. Denn die Seiten enthalten ungültige Zeichen, weshalb Octoparse bestimmte Felder unvollständig ausliest.
+Die Texte auf den Seiten enthalten ungültige Zeichen, vermutlich ist die Zeichencodierung der HTML-Seiten unsauber. Zunächst dachten wir, Octoparse würde deshalb das Auslesen in bestimmte Felder abbrechen.  
 
-Die heruntergeladenen Seiten müssen auf ungültige Zeichen durchsucht werden. Jeder gängige Code-Editor bzw. IDE eignet sich. Wir haben VSCodium und eine Kombination aus multireplace und händischer Korrektur verwendet. 
+Zunächst hatten wir die ungültigen Zeichen aus den heruntergeladenen HTML-Seiten entfernt (`suchen & ersetzen`, VSCodium). 
 
 ![](img/vscodium.jpg)
+
+Später hat sich herausgestellt, dass die Texte durchaus vollständig ausgelesen wurden, es jedoch zu einem Fehler beim Öffnen der exportierten Liste gekommen war (siehe unten).
 
 ### Lokale HTML-Seiten im Browser zugänglich machen
 
@@ -69,7 +71,7 @@ Weil die Seminarbeschreibungen online abgerufen werden, dauert der Prozess sehr 
 
 Octoparse bietet die Möglichkeit, Duplikate automatisch zu entfernen.  
 
-Die Daten müssen lokal gespeichert werden. Die Software bietet verschiedene Formate an (CSV, XLSX, etc.). Für uns hat sich XLSX am besten geeignet.
+Die Daten müssen lokal gespeichert werden. Die Software bietet verschiedene Formate an (CSV, XLSX, etc.). Für uns hat sich XLSX am besten geeignet. Der CSV-Export war leider unbrauchbar.
 
 &nbsp;
 
@@ -82,6 +84,12 @@ Nur strukturierte und bereinigte Daten können sinnvoll weiterverarbeitet werden
 Octoparse erzeugt eine Liste wie diese:
 
 ![](img/octoparse-export.jpg)
+
+Wir hatten die Liste zunächst in Apples "Numbers" geöffnet. Dort wurden die Texte leider verstümmelt, was wir auf die fehlerhafte Zeichencodierung der HTML-Seiten zurückgeführt hatten. Wir dachten, Octoparse hätte das Auslesen bei ungültigen Zeichen abgebrochen. Tatsächlich lagen die Texte jedoch vollständig vor, und zwar inklusive ungültiger Zeichen. Es lag an "Numbers", das die exportierte Liste fehlerhaft öffnete – ohne dies rückzumelden. Mit einer anderen Software wie "OpenOffice" oder "OnlyOffice" geöffnet, trat das Problem nicht auf. 
+
+OnlyOffice stellt die ungültigen Zeichen visuell dar, wodurch sie per `suchen & ersetzen` entfernt werden können. Mühsam! Fehlerhaft codierte Zeichen u.A. für `"`, ` `, `'`, etc.
+
+![](img/ungueltige-zeichen.jpg)
 
 ## Personen/Namen
 
@@ -195,7 +203,7 @@ Formel für die Fachbereiche:
 
 #### Beziehungen Person-Veranstaltung-Fachbereich
 
-Gegeben ist eine zweidimensionale Beziehung von `Dozenten` und `Veranstaltungen`. Denn jede Veranstaltung kann mehrere Dozenten haben. Ziel ist eine eindimensionale Liste aller Personen, die mit einer Veranstaltung verbunden sind (`IST_DOZENT`).  
+Gegeben ist eine zweidimensionale Beziehung von `Dozenten` und `Veranstaltungen`. Denn jede Veranstaltung kann mehrere Dozenten haben. Ziel ist eine eindimensionale Liste aller Personen, die mit einer Veranstaltung verbunden sind (`IST DOZENT`).  
 
 Diese Liste wird manuell generiert – ein aufwendiger und fehleranfälliger Schritt!
 
@@ -230,7 +238,7 @@ Wir verwenden [Neo4j AuraDB](https://neo4j.com/cloud/platform/aura-graph-databas
 Einen Account anlegen und [einloggen](https://console.neo4j.io/).  
 Neue Datenbank-Instanz:  
 - Instance type: AuraDB (free)
-- Instance Name: hfg_vvz (in unserem Fall)
+- Instance Name: hfg vvz (in unserem Fall)
 - GCP Region: Belgium (europe-west1)
 - Starting dataset: Load or create your own data in a blank instance
 
@@ -281,7 +289,7 @@ Bei der Node `Veranstaltung` importieren wir nicht alle Properties. Die Tabelle 
 
 #### Relations
 
-Relationen können einfach mit der Maus gezogen werden. Wir definieren zunächst die Relation `IST_DOZENT` zwischen `Personen` &rarr; `Veranstaltungen`. Den Namen dieser Relation vergeben wir möglichst sprechend und einfach. 
+Relationen können einfach mit der Maus gezogen werden. Wir definieren zunächst die Relation `IST DOZENT` zwischen `Personen` &rarr; `Veranstaltungen`. Den Namen dieser Relation vergeben wir möglichst sprechend und einfach. 
 
 ![](img/neo4j-importer-6.jpg)
 
@@ -292,7 +300,7 @@ Die Zuordnung befindet sich in der Datei `Beziehungen.csv`, die wir bei "File" a
 
 Damit ist die erste Relation definiert. Der Relation selbst könnten noch Properties mitgegeben werden, was aber in diesem Fall nicht nötig ist.
 
-Dasselbe wiederholen wir für die `TEIL_VON`-Relationen  
+Dasselbe wiederholen wir für die `TEIL VON`-Relationen  
 `Person` &rarr; `Fachbereich`  
 `Veranstaltung` &rarr; `Fachbereich`
 
