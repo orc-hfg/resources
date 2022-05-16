@@ -10,6 +10,13 @@ Wir haben verschiedene Tools verglichen. Gute Ergebnisse liefert [PDF24 Tools](h
 
 ![](img/text-roh.jpg)
 
+#### Personen-Liste erzeugen
+
+![](img/personen.jpg)
+
+
+#### Texte korrigieren
+
 Steuerzeichen im Textverarbeitungsprogramm einschalten
 Semi-automatische Korrektur des gesamten Textes:
 - Formatierungen entfernen / reinen Text in die Liste eintragen
@@ -35,6 +42,9 @@ Kurzbeschreibung
 
 ![](img/liste.jpg)
 
-Wir haben die Liste so aufgebaut, dass sie eine eigenständige Personen-Liste enthält und die Nachnamen automatisch zu vollen Namen ergänzt. Die Personen-Liste können wir später mir der Master-Personen-Liste abgleichen.  
-Im PDF-VVZ stehen nur die Nachnamen, für den Import benötigen wir aber die vollen Namen.  
-Jeder Name bekommt eine eigenen Spalte. Auch das ist schon die Vorbereitung für den späteren Import.
+Wir haben die Liste so aufgebaut, dass sie eine eigenständige Personen-Liste enthält und die Nachnamen automatisch zu vollen Namen ergänzt:  
+`XVERWEIS(F20;Personen::Nachname;Name;"";Übereinstimmungstyp;Suchtyp)`
+
+- Die Personen-Liste können wir später mir der Master-Personen-Liste abgleichen.  
+- Im PDF-VVZ stehen nur die Nachnamen, für den Import benötigen wir aber die vollen Namen.  
+- Jeder Name bekommt eine eigenen Spalte. Auch das ist schon die Vorbereitung für den späteren Import.
