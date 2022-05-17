@@ -1,7 +1,9 @@
+# Daten aufbereiten
+
 Das Aufbereiten der Daten ist extrem wichtig – und zeitaufwendig.  
 Nur strukturierte und bereinigte Daten können sinnvoll weiterverarbeitet werden.  
 
-Octoparse erzeugt eine Liste wie diese:
+Octoparse (siehe [1. Web scraping](../1-Web-Scraping/)) erzeugt eine Liste wie diese:
 
 ![](img/octoparse-export.jpg)
 

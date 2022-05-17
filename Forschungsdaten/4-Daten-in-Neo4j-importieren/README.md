@@ -1,3 +1,5 @@
+# Strukturierte Daten in Neo4j importieren
+
 Für Datenanalyse arbeiten wir mit einer Graphdatenbank, die einfach und anschaulich (komplexen) Beziehungen zwischen Daten darstellen kann. 
 
 Wir verwenden [Neo4j AuraDB](https://neo4j.com/cloud/platform/aura-graph-database/), einen cloud service mit free plan Option, und importieren unsere Liste. 

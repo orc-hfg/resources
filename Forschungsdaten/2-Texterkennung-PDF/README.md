@@ -1,6 +1,6 @@
-### PDF Texterkennung durchführen
+# Texte aus gescannten Bildern extrahieren und strukturieren
 
-Wir haben verschiedene Tools verglichen. Gute Ergebnisse liefert [PDF24 Tools](https://tools.pdf24.org/de/pdf-text-erkennen).
+Für die Texterkennung in PDFs haben wir verschiedene Tools verglichen. Bei unseren relativ schlechten Vorlagen hat der Dienst [PDF24 Tools](https://tools.pdf24.org/de/pdf-text-erkennen) gut funktioniert.
 
 &nbsp;
 

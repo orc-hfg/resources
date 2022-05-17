@@ -1,3 +1,5 @@
+# Strukturierte Daten erzeugen
+
 Wir möchten einen strukturierten Datensatz aus den Vorlesungsverzeichnissen (VVZ) der HfG erzeugen, um die Daten in andere (Datenbank-)Systeme zu importieren. 
 
 ![](liste-1.jpg)

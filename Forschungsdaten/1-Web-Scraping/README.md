@@ -1,4 +1,5 @@
-Für das Website Scraping / Web Harvesting kann man entweder ein Tool mit visueller Oberfläche verwenden (Point-and-Click) oder ein Script schreiben (Python).
+# Web scraping / harvesting
+Um Websites austomatisiert auszulesen, kann man entweder ein Tool mit visueller Oberfläche verwenden (Point-and-Click) oder ein Script schreiben (Python).
 
 Für unseren Usecase hat sich die App [Octoparse](https://www.octoparse.com/) als flexibelste und beste Lösung erwiesen (auf MacOS). Man definiert Bereiche und Loop-Abschnitte, die ausgelesen werden sollen. Klick-Automatisierungen und URL-Listen sind möglich.
 
