@@ -86,3 +86,7 @@ Neo4j bietet zwei Werkzeuge für die Abfrage der Graphdatenbank an, den "Neo4j B
 Eine erste Abfrage:
 
 ![](img/neo4j-browser.jpg)
+
+&nbsp;
+
+![](img/graph.jpg)
