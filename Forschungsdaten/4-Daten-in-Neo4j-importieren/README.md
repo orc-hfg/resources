@@ -83,7 +83,9 @@ Import erfolgreich.
 
 Neo4j bietet zwei Werkzeuge für die Abfrage der Graphdatenbank an, den "Neo4j Browser" und "Bloom". Der "Browser" kann direkt hier gestartet werden.
 
-Eine erste Abfrage:
+<div id="graph">Eine erste Abfrage:</div>
+
+&nbsp;
 
 ![](img/neo4j-browser.jpg)
 
