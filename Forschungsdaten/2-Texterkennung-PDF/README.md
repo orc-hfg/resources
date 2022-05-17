@@ -14,6 +14,11 @@ Für die Texterkennung in PDFs haben wir verschiedene Tools verglichen. Bei unse
 
 ![](img/personen.jpg)
 
+#### Fachbereiche-Liste
+
+Dasselbe für die Fachbereiche, wie sie im VVZ abgedruckt sind.
+
+![](img/fachbereiche.jpg)
 
 #### Texte korrigieren
 
