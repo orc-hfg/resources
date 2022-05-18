@@ -13,6 +13,13 @@ OCR-Software mit künstlicher Intelligenz. Meist Kombinationen aus maschinellem 
 
 ### ORC Tools
 
+#### PDF24 Tools (online)
+https://tools.pdf24.org/de/pdf-text-erkennen  
+- liefert erstaunlicher Weise die besten Ergebnisse
+
+![](img/pdf24.jpg)
+
+
 #### CEB doXiview (online)
 https://ocr.team/  
 
@@ -20,17 +27,14 @@ https://ocr.team/
 
 - Texterkennung (OCR) auf Basis von neuronalen Netzen. Frauenhofer Institut und CIB deepER.  
 - CIB deepER engine oder [Tesseract](https://github.com/tesseract-ocr/tesseract)
-- gute Anwendung, leider keine Layout-Erkennung
 - Korrekturen innerhalb der Anwendung möglich
+- _leider ist der kopierte Text nicht zu gebrauchen, weil das Layout nicht erkannt wird_
 
 
 #### ORCmyPDF (command line)
 https://ocrmypdf.readthedocs.io/  
 - verwendet [Tesseract](https://github.com/tesseract-ocr/tesseract) für OCR
 - [NextCloud-Plugin](https://github.com/janis91/ocr) verfügbar
-
-#### PDF24 Tools (online)
-https://tools.pdf24.org/de/pdf-text-erkennen  
 
 #### Dangerzone (offline)
 https://dangerzone.rocks/  
@@ -51,16 +55,6 @@ https://nanonets.com/
 ![](img/pdf-text.jpg)
 
 ![](img/text-roh.jpg)
-
-#### Personen-Liste erzeugen
-
-![](img/personen.jpg)
-
-#### Fachbereiche-Liste
-
-Dasselbe für die Fachbereiche, wie sie im VVZ abgedruckt sind.
-
-![](img/fachbereiche.jpg)
 
 #### Texte korrigieren
 
@@ -95,3 +89,17 @@ Wir haben die Liste so aufgebaut, dass sie eine eigenständige Personen-Liste en
 - Die Personen-Liste können wir später mir der Master-Personen-Liste abgleichen.  
 - Im PDF-VVZ stehen nur die Nachnamen, für den Import benötigen wir aber die vollen Namen.  
 - Jeder Name bekommt eine eigenen Spalte. Auch das ist schon die Vorbereitung für den späteren Import.
+
+&nbsp;
+
+### Personen-Liste erzeugen
+
+![](img/personen.jpg)
+
+&nbsp;
+
+### Fachbereiche-Liste
+
+Dasselbe für die Fachbereiche, wie sie im VVZ abgedruckt sind.
+
+![](img/fachbereiche.jpg)
