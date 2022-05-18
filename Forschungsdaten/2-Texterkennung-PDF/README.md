@@ -1,6 +1,48 @@
 # Texte aus gescannten Bildern extrahieren und strukturieren
 
-Für die Texterkennung in PDFs haben wir verschiedene Tools verglichen. Bei unseren relativ schlechten Vorlagen hat der Dienst [PDF24 Tools](https://tools.pdf24.org/de/pdf-text-erkennen) gut funktioniert.
+&nbsp;
+
+## Typen von Texterkennung
+
+1. OCR: Optical Character Recognition  
+Klassische Texterkennung
+2. IRC: Intelligent Character Recognition  
+Regel- und layoutbasierte OCR-Software
+3. IDP:  Intelligent Document Processing
+OCR-Software mit künstlicher Intelligenz. Meist Kombinationen aus maschinellem Lernen, Deep Learning, Optical Character Recognition (OCR) und Natural Language Processing (NLP).
+
+### ORC Tools
+
+#### CEB doXiview (online)
+https://ocr.team/  
+
+![](img/ceb.jpg)
+
+- Texterkennung (OCR) auf Basis von neuronalen Netzen. Frauenhofer Institut und CIB deepER.  
+- CIB deepER engine oder [Tesseract](https://github.com/tesseract-ocr/tesseract)
+- gute Anwendung, leider keine Layout-Erkennung
+- Korrekturen innerhalb der Anwendung möglich
+
+
+#### ORCmyPDF (command line)
+https://ocrmypdf.readthedocs.io/  
+- verwendet [Tesseract](https://github.com/tesseract-ocr/tesseract) für OCR
+- [NextCloud-Plugin](https://github.com/janis91/ocr) verfügbar
+
+#### PDF24 Tools (online)
+https://tools.pdf24.org/de/pdf-text-erkennen  
+
+#### Dangerzone (offline)
+https://dangerzone.rocks/  
+
+
+### IDP Tools
+
+#### Nanonets (online, payed service)
+https://nanonets.com/  
+- define a model, train the algorithm, run extraction, download data. [Supported languages](https://support.nanonets.com/hc/en-us/articles/4402102692241-What-are-the-languages-supported-recognised-by-Nanonets-apart-from-english-)  
+- _Ergebnisse nicht überzeugend:_ Training funktioniert nicht, keine Texterkennung, Layout wird nicht erkannt
+
 
 &nbsp;
 
