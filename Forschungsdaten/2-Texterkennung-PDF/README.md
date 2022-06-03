@@ -15,7 +15,7 @@ OCR-Software mit künstlicher Intelligenz. Meist Kombinationen aus maschinellem 
 
 #### PDF24 Tools (online)
 https://tools.pdf24.org/de/pdf-text-erkennen  
-- liefert erstaunlicher Weise die besten Ergebnisse
+- in unserem Fall erstaunlicher Weise die besten Ergebnisse
 
 ![](img/pdf24.jpg)
 
@@ -61,14 +61,12 @@ https://nanonets.com/
 Steuerzeichen im Textverarbeitungsprogramm einschalten
 Semi-automatische Korrektur des gesamten Textes:
 - Formatierungen entfernen / reinen Text in die Liste eintragen
-- suchen & ersetzen von falsch erkannten Buchstaben/Worte, sofern sie sich wiederholen (`fur` statt `für` oder `ı` statt `i`, etc.)
-- typografische Anführungszeichen `„` ersetzen `"`
+- typografische Anführungszeichen `„` `“` mit `"` ersetzen
 - Wort-Trennzeichen entfernen, am besten mit Suche nach "-&nbsp;" (`Minus` `Leerzeichen`) und manueller Prüfung jedes Fundes, um korrekte Fundstellen zu belassen
+- suchen & ersetzen von falsch erkannten Buchstaben/Worte, sofern sie sich wiederholen (`fur` statt `für` oder `ı` statt `i`, etc.)
 - ggf. Tabulatoren durch Leerzeichen ersetzen
-Manuelle Korrektur je Veranstaltung
-- Text komplett korrekturlesen
 - falsche Zeilenumbrüche entfernen
-- ggf. mit gescanntem PDF-VVZ vergleichen
+- Text komplett korrekturlesen und mit gescanntem PDF-VVZ vergleichen
 
 &nbsp;
 

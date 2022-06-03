@@ -120,12 +120,10 @@ Jeder Knoten, den wir referenzieren wollen, braucht eine **eindeutige ID**.
 
 ### Beziehungen
 
-Excel-Funktion `XVERWEIS` verwenden.  
+Funktion `VERWEIS` und `INDEX` kombinieren. Formel für die Fachbereiche:  
+`INDEX($FACHBEREICHE.A:A;VERGLEICH(F2;$FACHBEREICHE.B:B))`  
 
-Formel für die Fachbereiche:  
-`XVERWEIS(F2;FACHBEREICHE::Tabelle 1::Name;FACHBEREICHE::Tabelle 1::ID;)`  
-
-![](img/fb-xverweis.jpg)
+![](img/beziehungen-fb.jpg)
 
 ### Beziehungen Person-Veranstaltung-Fachbereich
 
@@ -143,10 +141,10 @@ Diese Liste ist die Grundlage der Tabelle `Beziehungen`.
 
 ![](img/beziehungen.jpg)
 
-`PersonID` und `FachbereichID` werden dynamisch erzeugt. Es sind Referenzen auf die Tabellen `VVZ` und `Personen`.
+`PersonID` und `FachbereichID` werden dynamisch erzeugt. Es sind Referenzen auf die Tabellen `VVZ` und `Personen`. Wir verwenden wieder die Verschachtelung der Funktionen `INDEX` und `VERGLEICH`.
 
 Formel für die `PersonID`:  
-`XVERWEIS(B2;PERSONEN::Tabelle 1::Name;PERSONEN::Tabelle 1::ID)`
+`INDEX($PERSONEN.A:A;VERGLEICH(B1132;$PERSONEN.B:B))`
 
 Formel für die `FachbereichID`:  
-`XVERWEIS(A2;VVZ::Tabelle 1::ID;VVZ::Tabelle 1::FachbereichID;)`
+`INDEX($VVZ.G:G;VERGLEICH(A1131;$VVZ.A:A))`

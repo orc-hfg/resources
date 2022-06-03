@@ -29,7 +29,7 @@ Später hat sich herausgestellt, dass die Texte durchaus vollständig ausgelesen
 
 ### Lokale HTML-Seiten im Browser zugänglich machen
 
-Octoparse liest Seiten über HTTP aus. Wir haben die lokalen HTML-Seiten über die lokale Serverumgebung [Laravel Valet](https://laravel.com/docs/9.x/valet) verfügbar gemacht. Alternative Software: XAMPP MAMP.
+Octoparse liest Seiten über HTTP aus. Wir haben die lokalen HTML-Seiten über die lokale Serverumgebung [Laravel Valet](https://laravel.com/docs/9.x/valet) verfügbar gemacht (MacOS). Alternative Software: XAMPP MAMP.
 
 ![](img/vvz-lokal.jpg)
 
