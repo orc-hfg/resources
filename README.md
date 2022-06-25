@@ -1,10 +1,10 @@
 ## HfG Karlsruhe /// ORC (Open Resource Center)
 
-Dieses Repository enthält Ressourcen für die Digitalisierung, Workflows und sonstige Informationen für die Arbeit mit unterschiedlichen Medienformaten. 
+Dieses Repository enthält Ressourcen für die Digitalisierung, Workflows für die Arbeit mit unterschiedlichen Medienformaten und Informationen zur ORC-Infrastruktur. 
 
 [&rarr; Digitalisierung](/Digitalisierung)  
 [&rarr; Workflows](/Workflows)  
-[&rarr; Zugang zum File Server](/ORC-File-Server)  
+[&rarr; Infrastruktur](/Infrastruktur)  
 
 &nbsp;
 
