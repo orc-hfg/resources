@@ -1,4 +1,6 @@
-The ORC-NAS (Network Attached Storage) is our file storage server. It's intended for use by the labs and the press at HfG Karlsruhe.  
+# ORC File Server
+
+The ORC-NAS (Network Attached Storage) is our file storage server. It is intended for use by the labs and the press at HfG Karlsruhe.  
 
 If you would like to request an account, or encounter any problems, please contact us:  
 Víctor Fancelli Capdevilla: [vfcapdevila@hfg-karlsruhe.de](mailto:vfcapdevila@hfg-karlsruhe.de)  
