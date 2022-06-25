@@ -1,6 +1,4 @@
-# HfG Karlsruhe /// ORC (Open Resource Center)
-
-&nbsp;
+## HfG Karlsruhe /// ORC (Open Resource Center)
 
 Dieses Repository enthält Ressourcen für die Digitalisierung, Workflows und sonstige Informationen für die Arbeit mit unterschiedlichen Medienformaten.  
 
