@@ -36,10 +36,10 @@ Select the volumes you want to mount.
 Now you should see the ORC NAS listed under the `Locations` section of your Finder window.
 
 ### Windows Explorer
-Launch File Explorer and go to 'This PC' / 'Dieser PC'
+Launch File Explorer and go to `This PC` / `Dieser PC`
 ![](img/nas_win_01.png)
 
-On the top bar, click 'Computer', then 'Netzlaufberg verbinden' / 'Map network drive' and then 'Map network drive'
+On the top bar, click `Computer`, then `Netzlaufberg verbinden` / `Map network drive` and then `Map network drive` (the green one).
 ![](https://kb.synology.com/_images/autogen/How_to_map_shared_folder_Windows_PC/1.png)
 
 ![](img/nas_win_02.png)
@@ -51,14 +51,15 @@ You can click on 'Browser' / 'Durchsuchen' to check which folders are accessible
 ![](img\nas_win_03.png)
 
 The Folder path has added the name of the Folder at the end:
+
 ``\\lagerraum.orc.hfg-karlsruhe.de\Commons``
 
-- [x] Check 'Reconnect at sign-in' 'Verbindung bei Anmeldung wiederherstellen' and let the other option unchecked
+- [x] Check ``Reconnect at sign-in`` ``Verbindung bei Anmeldung wiederherstellen`` and let the other option unchecked
 ![](img/nas_win_04.png)
 
-Click 'Finish' / 'Fertig stellen'
+Click ``Finish`` / ``Fertig stellen``
 
-Time for username and password: you´ve got an E-Mail with them. Remember we don't use Accents, Umlauts etc. ;)
+Time for username and password: you've got an E-Mail with them. Remember we don't use Accents, Umlauts etc. ;)
 ![](https://kb.synology.com/_images/autogen/How_to_map_shared_folder_Windows_PC/4.png)
 
 The new device(s) should appear on the bottom of the left panel. You can repeat the process for all the Folders you can access.
