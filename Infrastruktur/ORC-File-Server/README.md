@@ -2,11 +2,17 @@
 
 The ORC-NAS (Network Attached Storage) is our file storage server. It is intended for use by the labs and the press at HfG Karlsruhe.  
 
+:warning:**Remember**: NAS only works "inside the HfG" both with cable or through eduroam:warning:
+
 If you would like to request an account, or encounter any problems, please contact us:  
 Víctor Fancelli Capdevilla: [vfcapdevila@hfg-karlsruhe.de](mailto:vfcapdevila@hfg-karlsruhe.de)  
 Hannes Herold: [hherold@hfg-karlsruhe.de](mailto:hherold@hfg-karlsruhe.de)
 
+
 &nbsp;
+You can configure a direct access for shared folders for:
+[Mac Finder](#windows-explorer)
+[Windows Explorer](#windows-explorer)
 
 ## Directly access shared folders
 
@@ -37,6 +43,7 @@ Now you should see the ORC NAS listed under the `Locations` section of your Find
 
 ### Windows Explorer
 Launch File Explorer and go to `This PC` / `Dieser PC`
+
 ![](img/nas_win_01.png)
 
 On the top bar, click `Computer`, then `Netzlaufberg verbinden` / `Map network drive` and then `Map network drive` (the green one).
@@ -50,7 +57,7 @@ Select a letter (don't worry, it's not so important) and then write:
 
 You can click on `Browser` / `Durchsuchen` to check which folders are accessible to you, and click the one you want to connect to, and then `OK`
 
-![](img\nas_win_03.png)
+![](img/nas_win_03.png)
 
 The Folder path has added the name of the Folder at the end:
 
