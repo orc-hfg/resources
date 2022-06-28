@@ -11,8 +11,8 @@ Hannes Herold: [hherold@hfg-karlsruhe.de](mailto:hherold@hfg-karlsruhe.de)
 
 &nbsp;
 You can configure a direct access for shared folders for:
-[Mac Finder](#windows-explorer)
-[Windows Explorer](#windows-explorer)
+* [Mac Finder](#windows-explorer)
+* [Windows Explorer](#windows-explorer)
 
 ## Directly access shared folders
 
