@@ -39,7 +39,7 @@ Select the volumes you want to mount.
 
 Now you should see the ORC NAS listed under the `Locations` section of your Finder window.
 
-Additional information can also be found in the [Synology knowledge center](https://kb.synology.com/en-global/DSM/tutorial/access_nas_from_mac).
+Additional information can also be found in the <a href="https://kb.synology.com/en-global/DSM/tutorial/access_nas_from_mac" target="_blank" rel="noopener noreferrer">Synology knowledge center</a>.
 
 &nbsp;
 
