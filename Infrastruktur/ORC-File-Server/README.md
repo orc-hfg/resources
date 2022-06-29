@@ -2,21 +2,19 @@
 
 The ORC-NAS (Network Attached Storage) is our file storage server. It is intended for use by the labs and the press at HfG Karlsruhe.  
 
-:warning:**Remember**: NAS only works "inside the HfG", if you are connected by cable or through eduroam :warning:
+:warning: **Remember**: NAS only works "inside the HfG", if you are connected by cable or through eduroam :warning:
 
 If you would like to request an account, or encounter any problems, please contact us:  
 Víctor Fancelli Capdevilla: [vfcapdevila@hfg-karlsruhe.de](mailto:vfcapdevila@hfg-karlsruhe.de)  
 Hannes Herold: [hherold@hfg-karlsruhe.de](mailto:hherold@hfg-karlsruhe.de)
 
-
 &nbsp;
+
 You can configure a direct access for shared folders for:
 * [Mac Finder](#mac-finder)
 * [Windows Explorer](#windows-explorer)
 
-## Directly access shared folders
-
-### Mac Finder
+## Mac Finder
 
 Launch Finder on your Mac computer.  
 Click `Go` and select `Connect to Server` or press `command` + `k`.  
@@ -41,7 +39,11 @@ Select the volumes you want to mount.
 
 Now you should see the ORC NAS listed under the `Locations` section of your Finder window.
 
-### Windows Explorer
+Additional information can also be found in the [Synology knowledge center](https://kb.synology.com/en-global/DSM/tutorial/access_nas_from_mac).
+
+&nbsp;
+
+## Windows Explorer
 Launch File Explorer and go to `This PC` / `Dieser PC`
 
 ![](img/nas_win_01.png)
@@ -75,4 +77,6 @@ Time for username and password: you've got an E-Mail with them. Remember we don'
 
 The new device(s) should appear on the bottom of the left panel. You can repeat the process for all the Folders you can access.
 
-![](img/nas_win_05.png)
+![](img/nas_win_05.png)  
+
+Additional information can also be found in the [Synology knowledge center](https://kb.synology.com/en-global/DSM/tutorial/How_to_map_shared_folder_Windows_PC).
