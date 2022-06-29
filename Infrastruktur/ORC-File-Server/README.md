@@ -8,11 +8,11 @@ If you would like to request an account, or encounter any problems, please conta
 Víctor Fancelli Capdevilla: [vfcapdevila@hfg-karlsruhe.de](mailto:vfcapdevila@hfg-karlsruhe.de)  
 Hannes Herold: [hherold@hfg-karlsruhe.de](mailto:hherold@hfg-karlsruhe.de)
 
-&nbsp;
-
 You can configure a direct access for shared folders for:
 * [Mac Finder](#mac-finder)
 * [Windows Explorer](#windows-explorer)
+
+&nbsp;
 
 ## Mac Finder
 
