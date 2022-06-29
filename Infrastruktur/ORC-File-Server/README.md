@@ -2,7 +2,7 @@
 
 The ORC-NAS (Network Attached Storage) is our file storage server. It is intended for use by the labs and the press at HfG Karlsruhe.  
 
-:warning: **Remember**: NAS only works "inside the HfG", if you are connected by cable or through eduroam :warning:
+:warning: **Remember**: NAS only works "inside the HfG", if you are connected by cable or through eduroam. :warning:
 
 If you would like to request an account, or encounter any problems, please contact us:  
 Víctor Fancelli Capdevilla: [vfcapdevila@hfg-karlsruhe.de](mailto:vfcapdevila@hfg-karlsruhe.de)  
