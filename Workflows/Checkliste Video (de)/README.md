@@ -7,8 +7,10 @@
 :white_check_mark: Batterie geladen, ausreichend Akkus?  
 :white_check_mark: Speicherkarte vorhanden und leer?  
 :white_check_mark: Stimmen Uhrzeit und Datum der Kamera?  
-:white_check_mark: Einverständniserklärung und Infoblatt zum Aushängen dabei (Hinweise zu Pressefotos)? Falls Fotograf dabei ist, mit ihm oder ihr absprechen.
-:white_check_mark: Wie wird der Ton aufgenommen? Wenn möglich, Mikrofon direkt mit der Kamera verbinden; alternativ Zoom-Aufnahmegerät (und Kabel) mitbringen  
+:white_check_mark: Einverständniserklärung und Infoblatt zum Aushängen dabei (Hinweise zu Pressefotos)?  
+Falls Fotograf dabei ist, mit ihm oder ihr absprechen.  
+:white_check_mark: Wie wird der Ton aufgenommen? Wenn möglich, Mikrofon direkt mit der Kamera verbinden.  
+Alternativ Zoom-Aufnahmegerät (und Kabel) mitbringen.  
 :white_check_mark: Ggf. zusätzlich hochformatiges Video für Social Media mit einplanen; zum Beispiel mit dem Smartphone
 
 &nbsp;
