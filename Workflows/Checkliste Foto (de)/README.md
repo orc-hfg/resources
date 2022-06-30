@@ -2,23 +2,23 @@
 
 ## Vorbereitungen vor der Veranstaltung
 
-- :white_check_mark: Kameratasche: Materialcheck (alles dabei? Stativ, etc.)  
-- :white_check_mark: Batterie geladen, ausreichend Akkus?  
-- :white_check_mark: Speicherkarte vorhanden und leer?  
-- :white_check_mark: Einverständniserklärung und Infoblatt zum Aushängen (Hinweisen zu Pressefotos) dabei?  
+- Kameratasche: Materialcheck (alles dabei? Stativ, etc.)  
+- Batterie geladen, ausreichend Akkus?  
+- Speicherkarte vorhanden und leer?  
+- Einverständniserklärung und Infoblatt zum Aushängen (Hinweisen zu Pressefotos) dabei?  
 
 Einstellung der Kamera:  
-- :white_check_mark: Stimmen Uhrzeit und Datum der Kamera?  
-- :white_check_mark: Werden Fotos auf CR2 und JPEG L gespeichert?
+- Stimmen Uhrzeit und Datum der Kamera?  
+- Werden Fotos auf CR2 und JPEG L gespeichert?
 
 &nbsp;
 
 ## Kurz vor Beginn der Veranstaltung
 
-- :white_check_mark: Mit Organisator:innen/Redner:innen abklären, wofür aufgenommen wird (Website, Social Media, usw.)  
-- :white_check_mark: Einverständnis von der Redner:innen einholen  
-- :white_check_mark: Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen)  
-- :white_check_mark: Redner:in bitten, das Publikum darauf hinzuweisen, dass während der Veranstaltung fotografiert wird.
+- Mit Organisator:innen/Redner:innen abklären, wofür aufgenommen wird (Website, Social Media, usw.)  
+- Einverständnis von der Redner:innen einholen  
+- Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen)  
+- Redner:in bitten, das Publikum darauf hinzuweisen, dass während der Veranstaltung fotografiert wird.
 
 &nbsp;
 
