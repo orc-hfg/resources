@@ -14,16 +14,16 @@
 
 ## Aufbau
 
-:white_check_mark: Geeignete Position(en) wählen, Stativ aufstellen, Mikrofon(e) installieren. Falls mehrere Kameras: eine Position für den Überblick (hinten, zentral, fix), eine Position für Nahaufnahmen (weiter vorne)
+:white_check_mark: Geeignete Position(en) wählen, Stativ aufstellen, Mikrofon(e) installieren. Falls mehrere Kameras: eine Position für den Überblick (hinten, zentral, fix), eine Position für Nahaufnahmen (weiter vorne)  
 :white_check_mark: Bild und Ton testen
 
 &nbsp;
 
 ## Kurz vor Beginn der Veranstaltung
 
-:white_check_mark: Mit Organisator:innen oder Redner:innen abklären, was für welche Zwecke aufgenommen werden soll (Website, Social Media, usw.)
-:white_check_mark: Einverständnis von der Redner:innen einholen
-:white_check_mark: Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen)
+:white_check_mark: Mit Organisator:innen oder Redner:innen abklären, was für welche Zwecke aufgenommen werden soll (Website, Social Media, usw.)  
+:white_check_mark: Einverständnis von der Redner:innen einholen  
+:white_check_mark: Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen)  
 :white_check_mark: Redner:in bitten, das Publikum darauf hinzuweisen, dass die Veranstaltung per Video aufgezeichnet wird. Personen, die NICHT aufgenommen werden möchten, bitten, sich seitlich zu setzen, um nicht im Bild zu sein.
 
 &nbsp;
