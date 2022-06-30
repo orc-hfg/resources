@@ -45,6 +45,6 @@ People should not be recognisable, i.e. take photos from behind. In the case of 
 3. Upload the folder with both subfolders to the file server.  
 https://github.com/orc-hfg/resources/tree/main/Infrastruktur/ORC-File-Server
 4. Fill in the form:  
-https://cloud.hfg-karlsruhe.de/apps/forms/976qA5Y4Jxk8HRHM
-When everything has been uploaded successfully, format the memory card. 6.  
+https://cloud.hfg-karlsruhe.de/apps/forms/976qA5Y4Jxk8HRHM  
+5. When everything has been uploaded successfully, format the memory card.
 6. Hand in the signed declaration of consent to the press or drop it in their letterbox.
