@@ -1,4 +1,4 @@
-# Madek Weiterentwicklung
+# Madek Entwicklung
 
 Features, die für unser Projekt wichtig sind:
 
