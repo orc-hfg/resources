@@ -8,21 +8,21 @@
 - Stimmen Uhrzeit und Datum der Kamera? :white_check_mark:  
 - Einverständniserklärung und Infoblatt zum Aushängen dabei (Hinweise zu Pressefotos)? Falls Fotograf dabei ist, mit ihm oder ihr absprechen. :white_check_mark:  
 - Wie wird der Ton aufgenommen? Wenn möglich, Mikrofon direkt mit der Kamera verbinden; alternativ Zoom-Aufnahmegerät (und Kabel) mitbringen. :white_check_mark:  
-- Ggf. zusätzlich hochformatiges Video für Social Media mit einplanen; zum Beispiel mit dem Smartphone :white_check_mark:
+- Ggf. zusätzlich hochformatiges Video für Social Media mit einplanen; zum Beispiel mit dem Smartphone. :white_check_mark:
 
 &nbsp;
 
 ## Aufbau
-- Geeignete Position(en) wählen, Stativ aufstellen, Mikrofon(e) installieren. Falls mehrere Kameras: eine Position für den Überblick (hinten, zentral, fix), eine Position für Nahaufnahmen (weiter vorne)  
-- Bild und Ton testen
+- Geeignete Position(en) wählen, Stativ aufstellen, Mikrofon(e) installieren. Falls mehrere Kameras: eine Position für den Überblick (hinten, zentral, fix), eine Position für Nahaufnahmen (weiter vorne). :white_check_mark:
+- Bild und Ton testen. :white_check_mark:
 
 &nbsp;
 
 ## Kurz vor Beginn der Veranstaltung
-- Mit Organisator:innen oder Redner:innen abklären, was für welche Zwecke aufgenommen werden soll (Website, Social Media, usw.)  
-- Einverständnis von der Redner:innen einholen  
-- Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen)  
-- Redner:in bitten, das Publikum darauf hinzuweisen, dass die Veranstaltung per Video aufgezeichnet wird. Personen, die NICHT aufgenommen werden möchten, bitten, sich seitlich zu setzen, um nicht im Bild zu sein.
+- Mit Organisator:innen oder Redner:innen abklären, was für welche Zwecke aufgenommen werden soll (Website, Social Media, usw.) :white_check_mark:
+- Einverständnis von der Redner:innen einholen :white_check_mark:
+- Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen) :white_check_mark:
+- Redner:in bitten, das Publikum darauf hinzuweisen, dass die Veranstaltung per Video aufgezeichnet wird. Personen, die NICHT aufgenommen werden möchten, bitten, sich seitlich zu setzen, um nicht im Bild zu sein. :white_check_mark:
 
 &nbsp;
 
