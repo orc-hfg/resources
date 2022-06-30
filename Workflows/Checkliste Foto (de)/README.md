@@ -15,10 +15,10 @@ Einstellung der Kamera:
 
 ## Kurz vor Beginn der Veranstaltung
 
-- Mit Organisator:innen/Redner:innen abklären, wofür aufgenommen wird (Website, Social Media, usw.)  
-- Einverständnis von der Redner:innen einholen  
-- Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen)  
-- Redner:in bitten, das Publikum darauf hinzuweisen, dass während der Veranstaltung fotografiert wird.
+:white_check_mark: Mit Organisator:innen/Redner:innen abklären, wofür aufgenommen wird (Website, Social Media, usw.)  
+:white_check_mark: Einverständnis von der Redner:innen einholen  
+:white_check_mark: Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen)  
+:white_check_mark: Redner:in bitten, das Publikum darauf hinzuweisen, dass während der Veranstaltung fotografiert wird.
 
 &nbsp;
 
