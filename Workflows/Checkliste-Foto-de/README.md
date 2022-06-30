@@ -15,7 +15,7 @@ Einstellung der Kamera:
 
 ## Kurz vor Beginn der Veranstaltung
 
-:white_check_mark: Mit Organisator:innen/Redner:innen abklären, für welche Zwecke aufgenommen wird (Website, Social Media, usw.)  
+:white_check_mark: Mit Organisator:innen/Redner:innen abklären, wofür aufgenommen wird (Website, Social Media, usw.)  
 :white_check_mark: Einverständnis von der Redner:innen einholen  
 :white_check_mark: Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen)  
 :white_check_mark: Redner:in bitten, das Publikum darauf hinzuweisen, dass während der Veranstaltung fotografiert wird.
@@ -44,13 +44,15 @@ Personen sollten nicht erkennbar sein, d.h. von hinten aufnehmen; bei größeren
 
 ## Nach der Veranstaltung
 
-- Auf dem Rechner: Ordner für die Veranstaltung anlegen. Benennung: JahrMonatTag_Titel-der-Veranstaltung_Kürzel-Fotograf
+1. Auf dem Rechner Ordner für die Veranstaltung anlegen
+   - Benennung: JahrMonatTag_Titel-der-Veranstaltung_Kürzel-Fotograf  
    - Zwei Unterordner: CR2 und JPG
-- Vorauswahl der Fotos treffen und in Ordnerstruktur ablegen
-- Falls nötig, ausgewählte Fotos nachbearbeiten (beschneiden, Retusche, etc.)
-- Bearbeitete Fotos als JPG abspeichern (Qualität 80)
-- Ordner mit beiden Unterordnern auf NAS hochladen (ZUGANG)
-- Formular ausfüllen:  
+2. Vorauswahl der Fotos treffen und in Ordnerstruktur ablegen
+   - Falls nötig, ausgewählte Fotos nachbearbeiten (beschneiden, Retusche, etc.)
+   - Bearbeitete Fotos als JPG abspeichern (Qualität 80)
+3. Ordner mit beiden Unterordnern auf den File-Server hochladen  
+https://github.com/orc-hfg/resources/tree/main/Infrastruktur/ORC-File-Server
+4. Formular ausfüllen:  
 https://cloud.hfg-karlsruhe.de/apps/forms/976qA5Y4Jxk8HRHM
-- Wenn alles hochgeladen ist, Speicherkarte formatieren
-- Unterschriebene Einverständniserklärung bei der Presse abgeben bzw. in deren Briefkasten werfen
+5. Wenn alles hochgeladen ist, Speicherkarte formatieren  
+6. Unterschriebene Einverständniserklärung bei der Presse abgeben bzw. in deren Briefkasten werfen
