@@ -1,7 +1,5 @@
 # Madek Entwicklung
 
-Features, die für unser Projekt wichtig sind:
-
 1. Authentifizierung
    1. LDAP-Anbindung
    2. oAuth
