@@ -40,7 +40,7 @@ Personen sollten nicht erkennbar sein, d.h. von hinten aufnehmen; bei größeren
 1. Video schneiden, ggf. Tonspur synchronisieren, etc.
    > Für uns noch klären: Vorspann, Abspann? Während des Mitschnitts Bauchbinden, Untertitel etc.? Stellen wir Templates, Schriften, Logo etc. zur Verfügung?
 
-2. Projekt als mp4 exportieren (H264, AAC 48 kHz stereo)  
+2. Projekt als mp4 exportieren (H264, AAC 48 kHz stereo) 
 Dateiname: JahrMonatTag_Name-der-Veranstaltung.mp4
 3. Arbeitsdateien des Projekts mit Clips exportieren (inkl. Originaldateien)
 4. Hochladen auf den File-Server  
