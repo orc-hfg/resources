@@ -11,16 +11,12 @@ Einstellung der Kamera:
 - Stimmen Uhrzeit und Datum der Kamera?  
 - Werden Fotos auf CR2 und JPEG L gespeichert?
 
-&nbsp;
-
 ## Kurz vor Beginn der Veranstaltung
 
 - Mit Organisator:innen/Redner:innen abklären, wofür aufgenommen wird (Website, Social Media, usw.)  
 - Einverständnis von der Redner:innen einholen  
 - Infoblatt mit Hinweisen zu Pressefotos/Video aushängen (ggf. Mit Fotograf abstimmen)  
 - Redner:in bitten, das Publikum darauf hinzuweisen, dass während der Veranstaltung fotografiert wird.
-
-&nbsp;
 
 ## Während der Veranstaltung
 :point_right: Zwischen Hochformat und Querformat wechseln
@@ -38,10 +34,6 @@ Personen sollten nicht erkennbar sein, d.h. von hinten aufnehmen; bei größeren
 - Redner mit Publikum (von hinten), Raumpanorama
 - interessanten Details, falls relevant
 
-
-
-&nbsp;
-
 ## Nach der Veranstaltung
 
 1. Auf dem Rechner Ordner für die Veranstaltung anlegen
@@ -54,5 +46,5 @@ Personen sollten nicht erkennbar sein, d.h. von hinten aufnehmen; bei größeren
 https://github.com/orc-hfg/resources/tree/main/Infrastruktur/ORC-File-Server
 4. Formular ausfüllen:  
 https://cloud.hfg-karlsruhe.de/apps/forms/976qA5Y4Jxk8HRHM
-5. Wenn alles hochgeladen ist, Speicherkarte formatieren  
-6. Unterschriebene Einverständniserklärung bei der Presse abgeben bzw. in deren Briefkasten werfen
+5. Wenn alles erfolgreich hochgeladen wurde, Speicherkarte formatieren  
+6. Unterschriebene Einverständniserklärung bei der Presse abgeben bzw. in deren Briefkasten werfen.
