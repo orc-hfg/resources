@@ -68,7 +68,9 @@ Wir empfehlen, bestimmte Zeichen automatisch im ganzen Dokument zu ersetzen:
 
 - Silben-Trennzeichen: Suche nach "-&nbsp;" (`Minus` `Leerzeichen`).  
 :point_right: Dabei entstehen Fehler, z.B. "Text- und Bilderkennung" wird zu "Textund Bilderkennung". Solche Fälle müssen beim Übertragen in die Liste wieder korrigiert werden. 
-- Typografische Anführungszeichen `„` `“` &rarr; ersetzen durch `"`
+- Typografische Anführungszeichen:
+   - `„` `“` &rarr; ersetzen durch `"`
+   - `‚` `‘` &rarr; ersetzen durch `'`
 - Falsch erkannten Buchstaben/Worte, sofern sie sich wiederholen (z.B. `fur` statt `für` oder `ı` statt `i`, etc.)
 - ggf. Tabulatoren &rarr; ersetzen durch Leerzeichen
 - falsche Zeilenumbrüche entfernen
