@@ -7,7 +7,7 @@
 3. Input-Api
 4. Interface
    1. Interface modular mit dem System verbunden (&rarr; Input-API)
-   2. Neues Interface  
+   2. Neues Interface (frontend)  
 5. Alternative API (GraphQL)
 6. Medienformate
    1. Modularisierung
