@@ -94,7 +94,7 @@ Wir haben unsere Liste so aufgebaut, dass sie eine eigenständige Personen-Liste
 XVERWEIS (Excel, Numbers):  
 `XVERWEIS(F20;Personen::Nachname;Name;"";Übereinstimmungstyp;Suchtyp)`
 
-VERGLEICH (LibreOffice, höhere Kompatibilität):
+VERGLEICH (LibreOffice, höhere Kompatibilität):  
 `=WENNNV(INDEX($Personen.B:$Personen.B;VERGLEICH(I72;$Personen.D:$Personen.D));"")`
 - Die Personen-Liste können wir später mir der Master-Personen-Liste abgleichen.  
 - Im PDF-VVZ stehen nur die Nachnamen, für den Import benötigen wir aber die vollen Namen.  
