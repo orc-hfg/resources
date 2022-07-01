@@ -50,7 +50,9 @@ https://nanonets.com/
 
 &nbsp;
 
-### OCR-Text kopieren und in Textverarbeitungsprogramm einfügen
+### Maschinell erkannten Text aufbereiten
+
+Erkannten Text aus dem PDF kopieren und in ein Textverarbeitungsprogramm einfügen. Dabei **Formatierungen entfernen**, um reinen Text zu erhalten.
 
 ![](img/pdf-text.jpg)
 
@@ -58,35 +60,47 @@ https://nanonets.com/
 
 #### Texte korrigieren
 
-Steuerzeichen im Textverarbeitungsprogramm einschalten
-Semi-automatische Korrektur des gesamten Textes:
-- Formatierungen entfernen / reinen Text in die Liste eintragen
-- typografische Anführungszeichen `„` `“` mit `"` ersetzen
-- Wort-Trennzeichen entfernen, am besten mit Suche nach "-&nbsp;" (`Minus` `Leerzeichen`) und manueller Prüfung jedes Fundes, um korrekte Fundstellen zu belassen
-- suchen & ersetzen von falsch erkannten Buchstaben/Worte, sofern sie sich wiederholen (`fur` statt `für` oder `ı` statt `i`, etc.)
-- ggf. Tabulatoren durch Leerzeichen ersetzen
+Prinzipiell muss der automatisch erkannte Text beim Übertragen in die Liste manuell geprüft werden. Es kommt immer wieder vor, dass das OCR-Programm Zeichen falsch erkennt. Außerdem wollen wir keine Wörter mit Silbentrennung.  
+
+Es hilft, die Steuerzeichen im Textverarbeitungsprogramm einzuschalten.  
+
+Wir empfehlen, bestimmte Zeichen automatisch im ganzen Dokument zu ersetzen:
+
+- Silben-Trennzeichen: Suche nach "-&nbsp;" (`Minus` `Leerzeichen`).  
+:point_right: Dabei entstehen Fehler, z.B. "Text- und Bilderkennung" wird zu "Textund Bilderkennung". Solche Fälle müssen beim Übertragen in die Liste wieder korrigiert werden. 
+- Typografische Anführungszeichen `„` `“` &rarr; ersetzen durch `"`
+- Falsch erkannten Buchstaben/Worte, sofern sie sich wiederholen (z.B. `fur` statt `für` oder `ı` statt `i`, etc.)
+- ggf. Tabulatoren &rarr; ersetzen durch Leerzeichen
 - falsche Zeilenumbrüche entfernen
-- Text komplett korrekturlesen und mit gescanntem PDF-VVZ vergleichen
 
 &nbsp;
 
 ### Korrigierte Texte in die Liste eintragen
-- Formatierungen entfernen / reinen Text in die Liste eintragen
-- Informationen in die entsprechenden Spalten einfügen:  
-Semester  
-Fachbereich  
-Name Dozent(en)  
-Titel  
-Kurzbeschreibung 
+
+:point_right: Immer reinen Text ohne Formatierungen in die Liste eintragen.
+
+1. Informationen in die entsprechenden Spalten einfügen:  
+   - Semester  
+   - Fachbereich  
+   - Name Dozent(en)  
+   - Titel  
+   - Kurzbeschreibung 
+   - ggf. weitere Felder
 
 ![](img/liste.jpg)
 
-Wir haben die Liste so aufgebaut, dass sie eine eigenständige Personen-Liste enthält und die Nachnamen automatisch zu vollen Namen ergänzt:  
+Wir haben unsere Liste so aufgebaut, dass sie eine eigenständige Personen-Liste enthält und die Nachnamen automatisch zu vollen Namen ergänzt.  
+
+XVERWEIS (Excel, Numbers):  
 `XVERWEIS(F20;Personen::Nachname;Name;"";Übereinstimmungstyp;Suchtyp)`
 
+VERGLEICH (LibreOffice, höhere Kompatibilität):
+`=WENNNV(INDEX($Personen.B:$Personen.B;VERGLEICH(I72;$Personen.D:$Personen.D));"")`
 - Die Personen-Liste können wir später mir der Master-Personen-Liste abgleichen.  
 - Im PDF-VVZ stehen nur die Nachnamen, für den Import benötigen wir aber die vollen Namen.  
 - Jeder Name bekommt eine eigenen Spalte. Auch das ist schon die Vorbereitung für den späteren Import.
+
+:exclamation: Wenn `VERGLEICH` verwendet wird, muss die Liste, in der gesucht wird, alphabetisch geordnet sein.
 
 &nbsp;
 
