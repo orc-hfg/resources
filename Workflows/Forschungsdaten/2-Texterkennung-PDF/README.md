@@ -1,4 +1,4 @@
-# Texte aus gescannten Bildern extrahieren und strukturieren
+# Texte aus gescannten PDFs extrahieren und strukturieren
 
 &nbsp;
 
