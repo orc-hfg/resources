@@ -8,7 +8,7 @@ Die ZHdK konzentriert sich auf Aspekte der Langzeitarchivierung.
 Roadmap ZHdK: https://github.com/Madek/Madek/projects/11
 
 Unser wichtigstes Ziel ist es, dass die Redaktionsoberfläche (WebApp) flexibel an das System angebunden ist. Dazu soll eine zusätzliche Kommunikationsschicht zwischen Datenbank und Frontend/WebApp entwickelt werden. Über diese können unterschiedliche Interfaces (oder auch Services) mit der Datenbank und dem Dateisystem kommunizieren.  
-`Input API` (lesen, schreiben, verändern, löschen)
+[Input API](#Erweiterung der API) (lesen, schreiben, verändern, löschen)
 
 Im zweiten Schritt wollen wir (aufbauend auf der Input-API) ein neues Interface für die Redaktionsoberfläche entwickeln.  
 `Interface-Design`  
@@ -70,7 +70,6 @@ Allgemein setzt das Schreiben einer guten Dokumentation verschiedene Fähigkeite
 - klarer und prägnanter Stil
 - Fachvokabular
 - strukturierter Aufbau
-- didaktisches Qualitäten
 - Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen  
 
 Ggf. wird die technische Dokumentation von den Entwicklern geliefert. Für die User-Dokumentation der Oberfläche suchen wir ein\*e Autor\*in, der/die die Bedienung von Madek anhand der neuen Oberfläche verständlich macht.
