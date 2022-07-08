@@ -19,7 +19,7 @@ Nachhaltige Open-Source-Software lebt von guter [Dokumentation](#Dokumentation).
 
 In enger Abstimmung mit der ZHdK. 
 
-:wavy_dash: wir suchen :wavy_dash:
+:wavy_dash: *wir suchen* :wavy_dash:
 
 **1 Backend-Developer**  
 Ruby on Rails  
@@ -39,7 +39,7 @@ Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in zwei Teile: D
    - Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
 
 
-:wavy_dash::wavy_dash::wavy_dash:
+:wavy_dash: :eyes: :wavy_dash:
 
 **1 UX/UI-Designer**  
 Erfahrung mit formular-lastigen Interfaces
