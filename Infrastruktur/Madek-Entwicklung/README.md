@@ -70,7 +70,7 @@ Ggf. wird die technische Dokumentation von den Entwicklern geliefert. Für die U
 
 :eyes:
 
-### 1 Technical writer
+#### 1 Technical writer
 - detailliertes Verständins der Bedienung von Madek (Redaktionsoberfläche)  
 
 
