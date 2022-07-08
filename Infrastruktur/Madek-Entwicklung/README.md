@@ -21,9 +21,9 @@ In enger Abstimmung mit der ZHdK.
 
 :eyes:
 
-**1 Backend-Developer**  
-Ruby on Rails  
-Clojure  
+#### 1 Backend-Developer
+- Ruby on Rails  
+- Clojure  
 
 &nbsp; 
 
@@ -40,17 +40,17 @@ Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (V
 
 :eyes:
 
-**1 UX/UI-Designer**  
-Erfahrung mit formular-lastigen Interfaces
+#### 1 UX/UI-Designer  
+- Erfahrung mit formular-lastigen Interfaces
 
-**1 Frontend-Developer**  
-*Framework XY*
+#### 1 Frontend-Developer  
+- *Framework XY*
 
 *oder*  
 
 **Agentur, die beides abdeckt**  
-Erfahrung mit formular-lastigen Interfaces  
-*Framework XY*
+- Erfahrung mit formular-lastigen Interfaces  
+- *Framework XY*
 
 &nbsp; 
 
@@ -70,8 +70,8 @@ Ggf. wird die technische Dokumentation von den Entwicklern geliefert. Für die U
 
 :eyes:
 
-**1 Technical writer**  
-detailliertes Verständins der Bedienung von Madek (Redaktionsoberfläche)  
+### 1 Technical writer
+- detailliertes Verständins der Bedienung von Madek (Redaktionsoberfläche)  
 
 
 &nbsp;
