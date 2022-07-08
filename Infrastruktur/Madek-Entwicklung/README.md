@@ -31,11 +31,11 @@ Clojure
 
 Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in zwei Teile: Design und Umsetzung.
 
-#### UX/UI Design
+**UX/UI Design**  
 UX: Architektur der Oberfläche, interaction design, usability, Benutzerfreundlichkeit, etc.  
 UI: visuelle Gestaltung der Redaktionsoberfläche (user interface), Layout, Farben, Typographie, etc.
 
-#### Frontend-Entwicklung
+**Frontend-Entwicklung**  
 Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
 
 :eyes:
