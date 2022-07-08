@@ -19,7 +19,7 @@ Nachhaltige Open-Source-Software lebt von guter [Dokumentation](#Dokumentation).
 
 In enger Abstimmung mit der ZHdK. 
 
-### Wir suchen
+:wavy_dash: wir suchen :wavy_dash:
 
 **1 Backend-Developer**  
 Ruby on Rails  
