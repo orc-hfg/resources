@@ -19,8 +19,6 @@ Nachhaltige Open-Source-Software lebt von guter [Dokumentation](#Dokumentation).
 
 In enger Abstimmung mit der ZHdK. 
 
-&nbsp;
-
 :eyes:
 
 **1 Backend-Developer**  
@@ -33,14 +31,12 @@ Clojure
 
 Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in zwei Teile: Design und Umsetzung.
 
-**UX/UI Design**
-- UX: Architektur der Oberfläche, interaction design, usability, Benutzerfreundlichkeit, etc.
-- UI: visuelle Gestaltung der Redaktionsoberfläche (user interface), Layout, Farben, Typographie, etc.
+#### UX/UI Design
+UX: Architektur der Oberfläche, interaction design, usability, Benutzerfreundlichkeit, etc.  
+UI: visuelle Gestaltung der Redaktionsoberfläche (user interface), Layout, Farben, Typographie, etc.
 
-**Frontend-Entwicklung**
-   - Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
-
-&nbsp;
+#### Frontend-Entwicklung
+Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
 
 :eyes:
 
@@ -71,8 +67,6 @@ Allgemein setzt das Schreiben einer guten Dokumentation verschiedene Fähigkeite
 - Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen  
 
 Ggf. wird die technische Dokumentation von den Entwicklern geliefert. Für die User-Dokumentation der Oberfläche suchen wir ein\*e Autor\*in, der/die die Bedienung von Madek anhand der neuen Oberfläche verständlich macht.
-
-&nbsp;
 
 :eyes:
 
