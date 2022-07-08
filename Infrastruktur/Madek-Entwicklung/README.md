@@ -22,12 +22,12 @@ Nachhaltige Open-Source-Software lebt von guter Dokumentation.
 
 ## Erweiterung der API
 
-–  
+:wavy_dash::wavy_dash:  
 1 Backend-Entwickler
 
 ## Interface WebApp
 
-–  
+:wavy_dash::wavy_dash:  
 1 UX/UI-Designer  
 1 Frontned-Developer  
 *oder*  
@@ -45,7 +45,7 @@ Das Schreiben einer guten Dokumentation setzt verschiedene Fähigkeiten der Auto
 - Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen
 
 
-:wavy_dash:  
+:wavy_dash::wavy_dash:  
 1 Technical writer
 
 &nbsp;
