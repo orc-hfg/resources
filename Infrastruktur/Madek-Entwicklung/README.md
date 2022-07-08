@@ -11,12 +11,12 @@ Unser wichtigstes Ziel ist es, dass die Redaktionsoberfläche (WebApp) flexibel 
 `Input API` (lesen, schreiben, verändern, löschen)
 
 Im zweiten Schritt wollen wir (aufbauend auf der Input-API) ein neues Interface für die Redaktionsoberfläche entwickeln.  
-`Interface design`  
-`Interface programming`
+`Interface-Design`  
+`Interface-Programmierung`
 
-Nachhaltige Open-Source-Software lebt von guter Dokumentation.  
-`Technical documentation`  
-`User documentation`
+Nachhaltige Open-Source-Software lebt von guter Dokumentation  
+`Technische Dokumentation`  
+`Anwender-Dokumentation`
 
 &nbsp; 
 
@@ -24,7 +24,7 @@ Nachhaltige Open-Source-Software lebt von guter Dokumentation.
 
 In enger Abstimmung mit der ZHdK. 
 
-:wavy_dash::wavy_dash:
+:wavy_dash::wavy_dash::wavy_dash:
 
 **1 Backend-Developer**  
 Ruby on Rails  
@@ -44,7 +44,7 @@ Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in zwei Teile: D
    - Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
 
 
-:wavy_dash::wavy_dash:
+:wavy_dash::wavy_dash::wavy_dash:
 
 **1 UX/UI-Designer**  
 Erfahrung mit formular-lastigen Interfaces
@@ -62,18 +62,24 @@ Erfahrung mit formular-lastigen Interfaces
 
 ## Dokumentation
 
-Das Schreiben einer guten Dokumentation setzt verschiedene Fähigkeiten der Autor*innen voraus:
-- technisches Verständnis der zu beschreibenden Software
-- Verständnis der Software im Kontext ihres Anwendungsbereichs (User-Perspektive)
+Die **technische Dokumentation** richtet sich an Entwickler (technisches Verständnis der Software nötig). 
+
+Die **Anwender-Dokumentation** richtet sich an Studierende und Mitarbeiter\*innen, die mit Madek arbeiten (Verständnis sämtlicher Aspekte der Anwendung von Madek auf der Basis des neuen Interfaces). 
+
+Allgemein setzt das Schreiben einer guten Dokumentation verschiedene Fähigkeiten der Autor*innen voraus:
 - klarer und prägnanter Stil
 - Fachvokabular
 - strukturierter Aufbau
 - didaktisches Qualitäten
-- Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen
+- Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen  
 
-:wavy_dash::wavy_dash:
+Ggf. wird die technische Dokumentation von den Entwicklern geliefert. Für die User-Dokumentation der Oberfläche suchen wir ein\*e Autor\*in, der/die die Bedienung von Madek anhand der neuen Oberfläche verständlich macht.
 
-**1 Technical writer**
+:wavy_dash::wavy_dash::wavy_dash:
+
+**1 Technical writer**  
+detailliertes Verständins der Bedienung von Madek (Redaktionsoberfläche)  
+
 
 &nbsp;
 
