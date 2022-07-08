@@ -8,15 +8,13 @@ Die ZHdK konzentriert sich auf Aspekte der Langzeitarchivierung.
 Roadmap ZHdK: https://github.com/Madek/Madek/projects/11
 
 Unser wichtigstes Ziel ist es, dass die Redaktionsoberfläche (WebApp) flexibel an das System angebunden ist. Dazu soll eine zusätzliche Kommunikationsschicht zwischen Datenbank und Frontend/WebApp entwickelt werden. Über diese können unterschiedliche Interfaces (oder auch Services) mit der Datenbank und dem Dateisystem kommunizieren.  
-[Input API](#Erweiterung der API) (lesen, schreiben, verändern, löschen)
+[Input API](#Erweiterung-der-API) (lesen, schreiben, verändern, löschen)
 
 Im zweiten Schritt wollen wir (aufbauend auf der Input-API) ein neues Interface für die Redaktionsoberfläche entwickeln.  
-`Interface-Design`  
-`Interface-Programmierung`
+[Interface Design & Programmierung](Interface-WebApp)
 
 Nachhaltige Open-Source-Software lebt von guter Dokumentation  
-`Technische Dokumentation`  
-`Anwender-Dokumentation`
+[Technische und Anwender- Dokumentation](Dokumentation)
 
 &nbsp; 
 
