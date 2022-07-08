@@ -37,11 +37,11 @@ In enger Abstimmung mit der ZHdK.
 Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in zwei Teile: Design und Umsetzung.
 
 1. UX/UI Design
-- UX: Architektur der Oberfläche, interaction design, usability, Benutzerfreundlichkeit, etc.
-- UI: visuelle Gestaltung der Redaktionsoberfläche (user interface), Layout, Farben, Typographie, etc.
+   - UX: Architektur der Oberfläche, interaction design, usability, Benutzerfreundlichkeit, etc.
+   - UI: visuelle Gestaltung der Redaktionsoberfläche (user interface), Layout, Farben, Typographie, etc.
 
 2. Frontend-Entwicklung
-- Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
+   - Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
 
 
 :wavy_dash::wavy_dash:
