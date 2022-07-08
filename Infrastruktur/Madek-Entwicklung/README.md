@@ -11,10 +11,10 @@ Unser wichtigstes Ziel ist es, dass die Redaktionsoberfläche (WebApp) flexibel 
 [Input API](#Erweiterung-der-API) (lesen, schreiben, verändern, löschen)
 
 Im zweiten Schritt wollen wir (aufbauend auf der Input-API) ein neues Interface für die Redaktionsoberfläche entwickeln.  
-[Interface Design & Programmierung](Interface-WebApp)
+[Interface](#Interface-WebApp)
 
 Nachhaltige Open-Source-Software lebt von guter Dokumentation  
-[Technische und Anwender- Dokumentation](Dokumentation)
+[Dokumentation](#Dokumentation)
 
 &nbsp; 
 
