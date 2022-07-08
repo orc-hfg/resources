@@ -1,6 +1,6 @@
 # Madek Entwicklung
 
-Langfristig wollen wir Madek als nachhaltige, community-driven Software etablieren. Dazu bauen wir ein Netzwerk mit Partnerinstitutionen auf.  
+Langfristig wollen wir Madek als nachhaltige, community-driven Software etablieren. Zu diesem Zweck bauen wir ein Netzwerk mit Partnerinstitutionen auf.  
 
 Der Schwerpunkt unserer Entwicklung liegt auf Aspekten der Medienplattform wie user interaction und Modularisierung der Software.  
 
@@ -22,16 +22,43 @@ Nachhaltige Open-Source-Software lebt von guter Dokumentation.
 
 ## Erweiterung der API
 
-:wavy_dash::wavy_dash:  
-1 Backend-Entwickler
+In enger Abstimmung mit der ZHdK. 
+
+:wavy_dash::wavy_dash:
+
+1 Backend-Developer
+- Ruby on Rails
+- Clojure
+
+&nbsp; 
 
 ## Interface WebApp
 
-:wavy_dash::wavy_dash:  
+Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in zwei Teile: Design und Umsetzung.
+
+1. UX/UI Design
+- UX: Architektur der Oberfläche, interaction design, usability, Benutzerfreundlichkeit, etc.
+- UI: visuelle Gestaltung der Redaktionsoberfläche (user interface), Layout, Farben, Typographie, etc.
+
+2. Frontend-Entwicklung
+- Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
+
+
+:wavy_dash::wavy_dash:
+
 1 UX/UI-Designer  
-1 Frontned-Developer  
+- Erfahrung mit formular-lastigen Interfaces
+
+1 Frontend-Developer  
+- *Framework XY*
+
 *oder*  
+
 Agentur, die beides abdeckt
+- Erfahrung mit formular-lastigen Interfaces
+- *Framework XY*
+
+&nbsp; 
 
 ## Dokumentation
 
@@ -44,8 +71,8 @@ Das Schreiben einer guten Dokumentation setzt verschiedene Fähigkeiten der Auto
 - didaktisches Qualitäten
 - Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen
 
+:wavy_dash::wavy_dash:
 
-:wavy_dash::wavy_dash:  
 1 Technical writer
 
 &nbsp;
