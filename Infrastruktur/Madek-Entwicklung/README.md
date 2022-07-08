@@ -1,8 +1,8 @@
 # Madek Entwicklung
 
-Langfristig wollen wir Madek als nachhaltige, community-driven Software etablieren. Zu diesem Zweck bauen wir ein Netzwerk mit Partnerinstitutionen auf.  
+Langfristig wollen wir Madek als nachhaltige, community-driven Software etablieren. Darin besteht ein wichtiger Aspekt des Netzwerks mit Partnerinstitutionen, das wir aufbauen.  
 
-Der Schwerpunkt unserer Entwicklung liegt auf Aspekten der Medienplattform wie user interaction und Modularisierung der Software.  
+Bei der Softwareentwicklung liegt unser Schwerpunkt auf Aspekten der Medienplattform wie user interaction und Modularisierung der Software.  
 
 Die ZHdK konzentriert sich auf Aspekte der Langzeitarchivierung.  
 Roadmap ZHdK: https://github.com/Madek/Madek/projects/11
