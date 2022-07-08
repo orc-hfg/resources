@@ -26,9 +26,9 @@ In enger Abstimmung mit der ZHdK.
 
 :wavy_dash::wavy_dash:
 
-1 Backend-Developer
-- Ruby on Rails
-- Clojure
+> 1 Backend-Developer
+> - Ruby on Rails
+> - Clojure
 
 &nbsp; 
 
@@ -46,17 +46,17 @@ Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in zwei Teile: D
 
 :wavy_dash::wavy_dash:
 
-1 UX/UI-Designer  
-- Erfahrung mit formular-lastigen Interfaces
-
-1 Frontend-Developer  
-- *Framework XY*
-
-*oder*  
-
-Agentur, die beides abdeckt
-- Erfahrung mit formular-lastigen Interfaces
-- *Framework XY*
+> 1 UX/UI-Designer  
+> - Erfahrung mit formular-lastigen Interfaces
+> 
+> 1 Frontend-Developer  
+> - *Framework XY*
+> 
+> *oder*  
+> 
+> Agentur, die beides abdeckt
+> - Erfahrung mit formular-lastigen Interfaces
+> - *Framework XY*
 
 &nbsp; 
 
@@ -73,7 +73,7 @@ Das Schreiben einer guten Dokumentation setzt verschiedene Fähigkeiten der Auto
 
 :wavy_dash::wavy_dash:
 
-1 Technical writer
+> 1 Technical writer
 
 &nbsp;
 
