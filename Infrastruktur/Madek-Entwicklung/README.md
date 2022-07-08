@@ -1,19 +1,77 @@
 # Madek Entwicklung
 
-1. Authentifizierung
-   1. LDAP-Anbindung
-   2. oAuth
-2. Schnittstelle zu anderen Datenbanken, z.B. Normdatenbanken
-3. Input-Api
-4. Interface
-   1. Interface modular mit dem System verbunden (&rarr; Input-API)
-   2. Neues Interface (frontend)  
-5. Alternative API (GraphQL)
-6. Medienformate
-   1. Modularisierung
-   2. weitere Medienformate
-7. Dokumentation
-   1. allgemeine User-Dokumenation
-   2. konkrete Abläufe beschreiben (How-To)
-   3. API-Dokumentation mit Beispielen / code snippets
-   4. Installation (technische Dokumenation)
+Langfristig wollen wir Madek als nachhaltige, community-driven Software etablieren. Dazu bauen wir ein Netzwerk mit Partnerinstitutionen auf.  
+
+Der Schwerpunkt unserer Entwicklung liegt auf Aspekten der Medienplattform wie user interaction und Modularisierung der Software.  
+
+Die ZHdK konzentriert sich auf Aspekte der Langzeitarchivierung.  
+Roadmap ZHdK: https://github.com/Madek/Madek/projects/11
+
+Unser wichtigstes Ziel ist es, dass die Redaktionsoberfläche (WebApp) flexibel an das System angebunden ist. Dazu soll eine zusätzliche Kommunikationsschicht zwischen Datenbank und Frontend/WebApp entwickelt werden. Über diese können unterschiedliche Interfaces (oder auch Services) mit der Datenbank und dem Dateisystem kommunizieren.  
+`Input API` (lesen, schreiben, verändern, löschen)
+
+Im zweiten Schritt wollen wir (aufbauend auf der Input-API) ein neues Interface für die Redaktionsoberfläche entwickeln.  
+`Interface design`  
+`Interface programming`
+
+Nachhaltige Open-Source-Software lebt von guter Dokumentation.  
+`Technical documentation`  
+`User documentation`
+
+&nbsp; 
+
+## Erweiterung der API
+
+–  
+1 Backend-Entwickler
+
+## Interface WebApp
+
+–  
+1 UX/UI-Designer  
+1 Frontned-Developer  
+*oder*  
+Agentur, die beides abdeckt
+
+## Dokumentation
+
+Das Schreiben einer guten Dokumentation setzt verschiedene Fähigkeiten der Autor*innen voraus:
+- technisches Verständnis der zu beschreibenden Software
+- Verständnis der Software im Kontext ihres Anwendungsbereichs (User-Perspektive)
+- klarer und prägnanter Stil
+- Fachvokabular
+- strukturierter Aufbau
+- didaktisches Qualitäten
+- Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen
+
+
+:wavy_dash::wavy_dash::wavy_dash:  
+1 Technical writer
+
+&nbsp;
+
+---
+
+&nbsp;
+
+## Weitere Entwicklung
+
+### Authentifizierung
+- LDAP-Anbindung
+- oAuth
+
+## Schnittstelle zu anderen Datenbanken
+- Normdatenbanken
+
+## Alternative API
+- GraphQL
+
+## Medienformate
+- Modularisierung
+- weitere Medienformate
+
+## Dokumentation erweitern
+- allgemeine User-Dokumenation
+- konkrete Abläufe beschreiben (Cookbook/How-To)
+- REST-API mit Beispielen / code snippets
+- Installation (technische Dokumenation)
