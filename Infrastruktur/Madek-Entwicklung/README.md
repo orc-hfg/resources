@@ -24,8 +24,6 @@ Nachhaltige Open-Source-Software lebt von guter Dokumentation.
 
 In enger Abstimmung mit der ZHdK. 
 
-:wavy_dash::wavy_dash:
-
 > 1 Backend-Developer
 > - Ruby on Rails
 > - Clojure
@@ -42,9 +40,6 @@ Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in zwei Teile: D
 
 2. Frontend-Entwicklung
    - Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
-
-
-:wavy_dash::wavy_dash:
 
 > 1 UX/UI-Designer  
 > - Erfahrung mit formular-lastigen Interfaces
@@ -70,8 +65,6 @@ Das Schreiben einer guten Dokumentation setzt verschiedene Fähigkeiten der Auto
 - strukturierter Aufbau
 - didaktisches Qualitäten
 - Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen
-
-:wavy_dash::wavy_dash:
 
 > 1 Technical writer
 
