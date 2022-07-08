@@ -45,7 +45,7 @@ Das Schreiben einer guten Dokumentation setzt verschiedene Fähigkeiten der Auto
 - Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen
 
 
-:wavy_dash::wavy_dash:  
+:wavy_dash:  
 1 Technical writer
 
 &nbsp;
