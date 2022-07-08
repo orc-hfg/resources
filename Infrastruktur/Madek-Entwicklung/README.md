@@ -69,7 +69,7 @@ Allgemein setzt das Schreiben einer guten Dokumentation verschiedene Fähigkeite
 
 Ggf. wird die technische Dokumentation von den Entwicklern geliefert. Für die User-Dokumentation der Oberfläche suchen wir ein\*e Autor\*in, der/die die Bedienung von Madek anhand der neuen Oberfläche verständlich macht.
 
-:wavy_dash::wavy_dash::wavy_dash:
+:eyes:
 
 **1 Technical writer**  
 detailliertes Verständins der Bedienung von Madek (Redaktionsoberfläche)  
