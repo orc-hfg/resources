@@ -85,13 +85,6 @@ Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (V
 
 &nbsp;
 
-## Session management neu aufbauen
-Beschrieben von Tom Schank am 12.07.2022 als Abhängigkeit in Zusammenhang mit der Input-API.
-
-Möglicherweise im Zusammenhang mit diesem Issue:
-
-![](img/session-error.jpg)
-
 ## Authentifizierung
 - LDAP-Anbindung
 - oAuth
@@ -111,3 +104,10 @@ Möglicherweise im Zusammenhang mit diesem Issue:
 - konkrete Abläufe beschreiben (Cookbook/How-To)
 - REST-API mit Beispielen / code snippets
 - Installation (technische Dokumenation)
+
+## Session management neu aufbauen
+Beschrieben von Tom Schank am 12.07.2022 als Abhängigkeit in Zusammenhang mit der Input-API.
+
+Möglicherweise im Zusammenhang mit diesem Issue:
+
+![](img/session-error.jpg)
