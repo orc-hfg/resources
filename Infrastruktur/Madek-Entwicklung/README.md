@@ -81,10 +81,6 @@ Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (V
 
 &nbsp; 
 
----
-
-&nbsp;
-
 ## Authentifizierung
 - LDAP-Anbindung
 - oAuth
