@@ -4,9 +4,6 @@ Langfristig wollen wir Madek als nachhaltige, community-driven Software etablier
 
 Bei der Softwareentwicklung liegt unser Schwerpunkt auf Aspekten der Medienplattform wie user interaction und Modularisierung der Software.  
 
-Die ZHdK konzentriert sich auf Aspekte der Langzeitarchivierung.  
-Roadmap ZHdK: https://github.com/Madek/Madek/projects/11
-
 Unser wichtigstes Ziel ist es, dass die Redaktionsoberfläche (WebApp) flexibel an das System angebunden ist. Dazu soll eine [Input API](#Erweiterung-der-API) (lesen, schreiben, verändern, löschen) entwickelt werden (bzw. eine zusätzliche Kommunikationsschicht zwischen Datenbank und Frontend/WebApp). Über diese können unterschiedliche Interfaces (oder auch Services) mit der Datenbank und dem Dateisystem kommunizieren.  
 
 Nachhaltige Open-Source-Software lebt von guter [Dokumentation](#Dokumentation). Jede neue Entwicklung soll parallel dokumentiert werden.  
@@ -16,8 +13,6 @@ Im zweiten Schritt wollen wir (aufbauend auf der Input-API) ein neues [Interface
 &nbsp; 
 
 ## Erweiterung der API
-
-In enger Abstimmung mit der ZHdK. 
 
 :eyes:
 
