@@ -16,7 +16,7 @@ Im zweiten Schritt wollen wir (aufbauend auf der Input-API) ein neues [Interface
 
 :eyes:
 
-#### 1 Backend-Developer
+#### 1 Backend-Developer oder kleines Team
 - functional reactive programming
 - SQL
 - idealer Weise Studium der Algorithmik
@@ -25,6 +25,8 @@ Im zweiten Schritt wollen wir (aufbauend auf der Input-API) ein neues [Interface
 - Aufbau einer API
 - Möglichkeit, aktuelle Techniken zu erlernen (Clojure, Ruby on Rails)
 - inspirierendes Umfeld Kunst- und Designhochschule
+
+Die im Projekt derzeit wichtigsten Technologien: Relationale DB PostgreSQL, JVM, Clojure, REST und GraphQL, Ruby on Rails (eher legacy status), Ansible, React, ClojureScript mit Reagent.
 
 &nbsp; 
 
