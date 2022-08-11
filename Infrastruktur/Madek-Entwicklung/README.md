@@ -140,6 +140,9 @@ Madek nutzt den kostenpflichtigen Service für die Video-Codierung. Probleme:
 - zusätzlicher Traffic
 - Kosten
 
+https://www.brightcove.com/de/products/zencoder/
+https://zencoder.support.brightcove.com/
+
 Prüfen, ob Alternativen möglich sind. Ggf. bis zu einer gewissen Auslastung Transcodierungen auf der lokalen Serverumgebung ausführen?
 
 &nbsp;
