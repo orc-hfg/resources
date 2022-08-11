@@ -130,9 +130,8 @@ Allgemein setzt das Schreiben einer guten Dokumentation verschiedene Fähigkeite
 
 #### Wir suchen
 
-**Technical writer: technische Dokumentationen**
-
-**Technical writer: User-Dokumentationen**
+- Technical writer: technische Dokumentationen
+- Technical writer: User-Dokumentationen
 
 &nbsp;
 
