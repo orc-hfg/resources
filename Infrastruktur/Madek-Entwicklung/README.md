@@ -27,7 +27,6 @@ Unser Ziel ist eine API, die es Madek ermöglicht,
 ### Wir suchen
 **1 Backend-Developer oder kleines Team**  
 Functional reactive programming, SQL, idealer Weise Studium der Algorithmik, Ruby on Rails, Clojure.  
-
 Die im Projekt derzeit wichtigsten Technologien: Relationale DB PostgreSQL, JVM, Clojure, REST und GraphQL, Ruby on Rails (eher legacy status), Ansible, React, ClojureScript mit Reagent.
 
 **1 Technical writer**  
@@ -140,7 +139,7 @@ Madek nutzt den kostenpflichtigen Service für die Video-Codierung. Probleme:
 - zusätzlicher Traffic
 - Kosten
 
-https://www.brightcove.com/de/products/zencoder/
+https://www.brightcove.com/de/products/zencoder/  
 https://zencoder.support.brightcove.com/
 
 Prüfen, ob Alternativen möglich sind. Ggf. bis zu einer gewissen Auslastung Transcodierungen auf der lokalen Serverumgebung ausführen?
