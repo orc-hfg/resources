@@ -13,6 +13,7 @@ Aufbauend auf der neuen API wollen wir ein neues [Interface](#Interface-WebApp) 
 &nbsp; 
 
 ## Erweiterung der API
+`HfG` `Community` `ZHdK`
 
 ### API
 Unser Ziel ist eine API, die es Madek ermöglicht,
@@ -36,6 +37,7 @@ Ggf. wird die technische Dokumentation direkt vom Entwickler geliefert.
 &nbsp;
 
 ## Interface WebApp
+`HfG` `Community`
 
 Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in drei Teile: Konzeption, Design und Umsetzung.
 
@@ -64,6 +66,8 @@ Erfahrung mit formular-lastigen Interfaces
 
 
 ## Authentifizierung
+`HfG` `Community`
+
 - LDAP-Anbindung
 - oAuth
 
@@ -71,6 +75,8 @@ Erfahrung mit formular-lastigen Interfaces
 
 
 ## Schnittstelle zu anderen Datenbanken
+`HfG` `Community`
+
 - Normdatenbanken
 - Vokabulare
 
@@ -78,6 +84,8 @@ Erfahrung mit formular-lastigen Interfaces
 
 
 ## Entites erweitern
+`HfG` `Community`
+
 Aktuell existiert in Madek [Entities bezogen auf Personen](https://madek.readthedocs.io/en/latest/architecture/): `user`, `person`, `group`. Nützlich wäre zusätzlich, das Vorlesungsverzeichnis über eine Entity abzubilden, etwa `Veranstaltung` im Sinne von Vorlesung/Seminar. 
 
 Entities befinden sich systematisch auf einer anderen Ebene als Medieneinträge und Sets. 
@@ -86,12 +94,16 @@ Entities befinden sich systematisch auf einer anderen Ebene als Medieneinträge 
 
 
 ## Alternative API
+`HfG` `Community`
+
 - GraphQL
 
 &nbsp;
 
 
 ## Medienformate
+`HfG` `Community`
+
 - Modularisierung
 - weitere Medienformate
 
@@ -99,6 +111,8 @@ Entities befinden sich systematisch auf einer anderen Ebene als Medieneinträge 
 
 
 ## Dokumentation erweitern
+`HfG` `Community`
+
 - technische Dokumentation ausbauen bzw. überarbeiten
 - allgemeine User-Dokumenation erstellen (Dokumentation der ZHdK als Ausgangspunkt)
 - konkrete Abläufe beschreiben (Cookbooks / How-Tos), ggf. mit Code-Snippets
@@ -124,6 +138,8 @@ Allgemein setzt das Schreiben einer guten Dokumentation verschiedene Fähigkeite
 
 
 ## Installationsskript vereinfachen
+`Community`
+
 Die Installation von Madek ist kompliziert und benötigt fortgeschrittenes IT-Wissen, das nicht in jeder Institution vorausgesetzt werden kann. Zudem ist das aktuelle Instalattionsskript offensichtlich in manchen Teilen für die Bedürfnisse der ZHdK optimiert. 
 
 - Installation generell vereinfachen
@@ -133,6 +149,8 @@ Die Installation von Madek ist kompliziert und benötigt fortgeschrittenes IT-Wi
 
 
 ## Zencoder
+`Community`
+
 Madek nutzt den kostenpflichtigen Service für die Video-Codierung. Probleme:
 - Datenschutz
 - Abhängigkeit
@@ -148,6 +166,8 @@ Prüfen, ob Alternativen möglich sind. Ggf. bis zu einer gewissen Auslastung Tr
 
 
 ## Session management neu aufbauen
+`HfG` `Community` `ZHdK`
+
 Beschrieben von Tom Schank am 12.07.2022 als Abhängigkeit in Zusammenhang mit der Input-API.
 
 Möglicherweise im Zusammenhang mit diesem Issue:
