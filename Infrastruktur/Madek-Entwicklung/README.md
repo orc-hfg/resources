@@ -25,14 +25,8 @@ Unser Ziel ist eine API, die es Madek ermöglicht,
 1. technische Dokumentation der neu entwickelten API für Entwickler
 2. Inhalte aus Madek sollen von Websites (CMS) ohne höhere technische Kenntnisse abgerufen werden können, z.B. von einem Webdesigner einer Institution. Die API-Anfragen sollten relativ einfach in gängigen Web-Entwicklungssprachen zu schreiben sein (PHP, JavaScript). Eine ausführliche Dokumentation ist obligatorisch, am besten mit praktischen Beispielen und Codeschnipseln.
 
-### Wir suchen
-**1 Backend-Developer oder kleines Team**  
-Functional reactive programming, SQL, idealer Weise Studium der Algorithmik, Ruby on Rails, Clojure.  
-Die im Projekt derzeit wichtigsten Technologien: Relationale DB PostgreSQL, JVM, Clojure, REST und GraphQL, Ruby on Rails (eher legacy status), Ansible, React, ClojureScript mit Reagent.
-
-**1 Technical writer**  
-Ggf. wird die technische Dokumentation direkt vom Entwickler geliefert. 
-
+### In Madek verwendete Techniken
+Relationale DB PostgreSQL, JVM, Clojure, REST und GraphQL, Ruby on Rails (eher legacy status), Ansible, React, ClojureScript mit Reagent.
 
 &nbsp;
 
@@ -53,14 +47,6 @@ UI: visuelle Gestaltung der Redaktionsoberfläche (user interface), Layout, Farb
 
 ### Umsetzung: Frontend-Entwicklung
 Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
-
-### Wir suchen
-
-**1 UX/UI-Designer**  
-Erfahrung mit formular-lastigen Interfaces
-
-**1 Frontend-Developer**  
-*Framework XY*
 
 &nbsp; 
 
@@ -121,17 +107,6 @@ Entities befinden sich systematisch auf einer anderen Ebene als Medieneinträge 
 Technische Dokumentationen richten sich an Entwickler (technisches Verständnis der Software nötig). 
 
 Anwender-Dokumentationen richten sich an Studierende und Mitarbeiter\*innen, die mit Madek arbeiten (Verständnis sämtlicher Aspekte der Anwendung von Madek auf der Basis des neuen Interfaces). 
-
-Allgemein setzt das Schreiben einer guten Dokumentation verschiedene Fähigkeiten der Autor*innen voraus:
-- klarer und prägnanter Stil
-- Fachvokabular
-- strukturierter Aufbau
-- Sprachkompetenz, besonders bei Nicht-Muttersprachlern bzw. Übersetzungen  
-
-#### Wir suchen
-
-- Technical writer: technische Dokumentationen
-- Technical writer: User-Dokumentationen
 
 &nbsp;
 
