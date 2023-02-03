@@ -1,6 +1,6 @@
 # BBB Mitschnitte aufbereiten
 
-> Ziel dieses Mini-Tutorials ist es, aus den Rohdaten eines BBB-Mitschnitts (recording) ein Video zu erzeugen.
+> Ziel dieses Mini-Tutorials ist es, die Videos eines BBB-Mitschnitts (recording) herunterzuladen, um daraus später ein Video zu schneiden.
 
 Wenn eine Videokonferenz aufgezeichnet wird, speichert BBB zwei individuelle Videos auf dem Server:  
 1. Webcams
