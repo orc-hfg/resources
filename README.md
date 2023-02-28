@@ -4,7 +4,7 @@ Dieses Repository enthält Ressourcen für die Digitalisierung von analogen Medi
 
 Sonstige Ressourcen, die mit unserer Arbeit in Zusammenhang stehen, sammeln wir in unserem [&rarr; Wiki](https://github.com/orc-hfg/ressources/wiki).
 
-Für die Dokumentation der Online-Services der HfG existiert ein [$rarr; Handbuch](https://handbuch.hfg-karlsruhe.de)
+Für die Dokumentation der Online-Services der HfG existiert ein [&rarr; Handbuch](https://handbuch.hfg-karlsruhe.de)
 
 ---
 Open Resource Center der [HfG Karlsruhe](https://www.hfg-karlsruhe.de/)
