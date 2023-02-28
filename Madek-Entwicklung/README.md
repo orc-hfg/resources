@@ -103,7 +103,7 @@ Aktuell existiert in Madek [Entities bezogen auf Personen](https://madek.readthe
 
 Entities befinden sich systematisch auf einer anderen Ebene als Medieneinträge und Sets. 
 
-# ## Alternative API
+### Alternative API
 `HfG` `Community`
 
 - GraphQL
