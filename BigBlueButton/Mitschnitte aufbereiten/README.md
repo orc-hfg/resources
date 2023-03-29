@@ -14,7 +14,7 @@ Nevertheless, in some cases it may be useful to record a BBB conference.
 
 First and foremost, **you need to inform _all participants before recording_ and get their _explicit consent_** in order to hit the Record button. You must also state for how long and for what purpose you want to record. Beware: General Data Protection Regulation (GDPR) and other legal frameworks apply.
 
-> _If you fail to obtain explicit permission from a single participant, **the recording must never** begin._
+> _If you fail to obtain explicit permission from a single participant, **the recording must never** begin._ 
 
 Participants do not need to explain or reason why they do not comply with recording and must not be forced to voice out such reasons under any circumstance, although they are of course welcome to do so if they find it appropriate.
 
