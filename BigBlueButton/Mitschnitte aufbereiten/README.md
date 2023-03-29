@@ -34,7 +34,7 @@ BigBlueButton will immediately start working in the background to process your v
 
 Once you recorded a BBB-conference you might want to share it with the participants or even publish it.
 
-> _Always make sure that you have explicit consent for publication from all participiants before you publish something_
+> _Always make sure that you have explicit **consent for publication** from all participiants before you publish something_
 
 Technically a BBB recording consists of several components:  
   
@@ -60,7 +60,7 @@ Videos can be freely arranged                 | live arrangement during runtime
 individual post-editing possible (e.g. sound) | only post-editing of the entire recording
 –                                             | Duration of screen recording = duration of recording
 
-### 1\. download video files individually  
+### 1\. Variant 1: Download video files individually  
   
 When a video conference is recorded, BBB stores two individual videos on the server:    
 - webcams  
@@ -88,7 +88,7 @@ Repeat this process for the second video: Move the mouse over the presentation v
   
 After a successful download, you have saved both videos on your hard disk. In the next step you can import them into the video editing tool of your choice and arrange them.  
   
-### 2\. screen recording  
+### 2\. Variant 2: Screen recording  
   
 As described above, the individual streams can be arranged in the browser while the recording is running. Therefore, screen-recording should only be done with someone present who will follow the conference attentively and, during the course of the recording, zoom in on the presentation when it should be in the foreground, etc.  
   
