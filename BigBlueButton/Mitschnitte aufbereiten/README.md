@@ -64,7 +64,7 @@ individual post-editing possible (e.g. sound) | only post-editing of the entire 
 
 ### Variant 1: Download video files individually  
   
-When a video conference is recorded, BBB stores two individual videos on the server:    
+After a video conference has been recorded, BBB stores two individual videos on the server:    
 - webcams  
 - presentation  
   
