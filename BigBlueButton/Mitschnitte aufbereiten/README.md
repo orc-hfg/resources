@@ -36,7 +36,7 @@ BigBlueButton will immediately start working in the background to process your v
 
 Once you recorded a BBB-conference you might want to share it with the participants or even publish it.
 
-> _Always make sure that you have explicit **consent for publication** from all participiants before you publish something_
+> _Always make sure that you have explicit **consent for publication** from all participiants. Otherwise the recordings must not be published._
 
 Technically a BBB recording consists of several components:  
   
