@@ -49,7 +49,7 @@ These components of a session are stored separately on the server. Their views c
 When a recorded session is opened in BBB, these different streams are merged again at runtime. During playback, the viewers have the possibility to change the presentation (e.g. set it to full screen, hide it, etc.). This means that the conference was not stored on the server as ONE video file that could be downloaded.  
   
 This leads to two possibilities for editing a recording:  
-1. Download the video files one by one and join them afterwards with an external tool (video editing).  
+1. Download the video files individually and arrange them afterwards with an external tool (video editing).  
 2. Play the recording in the browser and record your screen with a screen capturing tool.  
   
 #### Pros and cons  
