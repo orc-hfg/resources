@@ -1,29 +1,25 @@
 # Madek Entwicklung
 
-`11.08.2022`
+`16.08.2023`
 
 Langfristig wollen wir Madek als nachhaltige, community-driven Software etablieren. Darin besteht ein wichtiger Aspekt des Netzwerks mit Partnerinstitutionen, das wir aufbauen.  
 
 Bei der Softwareentwicklung liegt unser Schwerpunkt auf Aspekten der Medienplattform wie user interaction und Modularisierung der Software.  
 
-Unser wichtigstes Ziel ist es, dass die Redaktionsoberfläche (WebApp) flexibel an das System angebunden ist. Dazu soll eine [Input API](#Erweiterung-der-API) (lesen, schreiben, verändern, löschen) entwickelt werden (bzw. eine zusätzliche Kommunikationsschicht zwischen Datenbank und Frontend/WebApp). Über diese können unterschiedliche Interfaces (oder auch Services) mit der Datenbank und dem Dateisystem kommunizieren.  
-
-Aufbauend auf der neuen API wollen wir ein neues [Interface](#Interface-WebApp) für die Redaktionsoberfläche entwickeln.  
+Unser wichtigstes Ziel ist es, dass die Redaktionsoberfläche (WebApp) flexibel an das System angebunden werden kann. Dazu entwickeln wir eine CRUD API (lesen, schreiben, verändern, löschen), mit der unterschiedliche Interfaces und Services/Anwendungen mit Madek interagieren können.  
 
 &nbsp; 
 
-## Erweiterung der API
-`HfG` `Community` `ZHdK`
+## Neue API
 
-### API
-Unser Ziel ist eine API, die es Madek ermöglicht,
-1. verschiedene Benutzeroberflächen (WebApp) auf modulare Weise anzubinden,
-2. die Software in Pipelines und Workflows mit anderen Systemen zu integrieren,
-3. strukturierte Daten zu importieren (aus Listen),
-4. externe Datenbanken wie Normdatenbanken und Vokabulare anzubinden.
+### Ziele
+1. Verschiedene Benutzeroberflächen (WebApp) sollenn modular an Madek angebunden werden können.
+2. Die Software soll in Pipelines und Workflows mit anderen Systemen integrierbar sein.
+3. Strukturierte Daten sollen importierbar sein (Listen).
+4. Externe Datenbanken wie Normdatenbanken und Vokabulare sollen angebunden werden können.
 
 ### Dokumentation
-1. technische Dokumentation der neu entwickelten API für Entwickler
+1. Technische Dokumentation der neu entwickelten API für Entwickler.
 2. Hands-on-Dokumentation der Abfrage-API. Inhalte aus Madek sollen ohne höhere technische Kenntnisse in Websites (CMS) eingebunden werden können. Anleitungen und Beispiele der API-Anfragen in gängigen Web-Entwicklungssprachen (PHP, JavaScript).
 
 ### In Madek verwendete Techniken
@@ -32,53 +28,30 @@ Relationale DB PostgreSQL, JVM, Clojure, REST und GraphQL, Ruby on Rails (eher l
 &nbsp;
 
 ## Interface WebApp
-`HfG` `Community`
 
-Die Entwicklung einer neuen Redaktionsoberfläche gliedert sich in drei Teile: Konzeption, Design und Umsetzung.
-
-### Konzeption
-Parallel zur neuen API wird die abstrakte Konzeption des Interfaces entwickelt: Architektur, Funktionen, Abläufe. Framework?
-- Systematik bzw, Wireframes
-- ggf. Prototyping
-
-### Design: UX/UI
-Auf der Basis der Konzeption wird ein konkreter Prototyp entworfen.  
-UX: interaction design, usability, Benutzerfreundlichkeit, etc.  
-UI: visuelle Gestaltung der Redaktionsoberfläche (user interface), Layout, Farben, Typographie, etc.
-
-### Umsetzung: Frontend-Entwicklung
-Umsetzung/Programmierung des Designs in einem noch zu definierenden Framework (Vue, React, Svelte, Ruby on Rails, etc.).
+Aufgrund unterschiedlicher Entwicklungen haben wir unserer Strategie geändert. Anstatt einer vollständig neuen Benutzeroberfläche sollen Module für bestimmte Anwendungen entwickelt werden. Die aktuelle, "traditionelle" Madek-WebApp bleibt weiterhin parallel im Einsatz.
 
 &nbsp; 
 
-
 ## Authentifizierung
-`HfG` `Community`
 
-- LDAP-Anbindung
-- oAuth
+Die Authentifizierungs-Methode in Madek wurde von der ZHdK neu geschrieben. Wir entwickeln ein Modul für die Anpassung an unsere internen Systeme (HfG).
 
 &nbsp;
 
-
 ## Schnittstelle zu anderen Datenbanken und Systemen
-`HfG` `Community`
 
-- Nextcloud, Moodle
-- Normdatenbanken, Vokabulare
+Geplant sind Nextcloud, Moodle sowie Normdatenbanken und ggf. externe Vokabulare.
 
 &nbsp;
 
 ## Importieren von strukturierten Daten (Listen)
-`HfG` `Community` `ZHdK`
 
 Eine Lösung, um in Listen erfasste Daten nach Madek zu importieren. 
 
 &nbsp;
 
-## Medienkonvertierung
-
-`HfG` `Community`
+## Videokonvertierung
 
 Madek nutzt den kostenpflichtigen Service *Zencoder* für die Video-Codierung. Probleme:
 - Datenschutz
@@ -89,33 +62,38 @@ Madek nutzt den kostenpflichtigen Service *Zencoder* für die Video-Codierung. P
 https://www.brightcove.com/de/products/zencoder/  
 https://zencoder.support.brightcove.com/
 
-Präferenz: Konvertierung auf Madek-Serverumgebung als default, Services optional zuschaltbar.  
-Alternative zu Zencoder.
+Unsere Präferenz: 
+- Konvertierung auf Madek-Serverumgebung als default, Services optional zuschaltbar.  
+- Alternative zu Zencoder.
 
 &nbsp;
 
+## Medienservice
+
+Der Medienservice in Madek muss neu geschrieben werden. Zusammenarbeit mit ZHdK ist erwünscht.
+
 ## Sonstiges, to discuss
 
+<!-- 
 ### Entites erweitern
 `HfG` `Community`
 
 Aktuell existiert in Madek [Entities bezogen auf Personen](https://madek.readthedocs.io/en/latest/architecture/): `user`, `person`, `group`. Nützlich wäre zusätzlich, das Vorlesungsverzeichnis über eine Entity abzubilden, etwa `Veranstaltung` im Sinne von Vorlesung/Seminar. 
 
-Entities befinden sich systematisch auf einer anderen Ebene als Medieneinträge und Sets. 
+Entities befinden sich systematisch auf einer anderen Ebene als Medieneinträge und Sets.  
 
 ### Alternative API
 `HfG` `Community`
 
 - GraphQL
+-->
 
 ### Medienformate
-`HfG` `Community`
 
-- Modularisierung
-- weitere Medienformate
+- Modularisierung des Medienservices (siehe oben)
+- Madek soll weitere Medienformate unterstützen können
 
 ### Dokumentation erweitern
-`HfG` `Community`
 
 - technische Dokumentation ausbauen bzw. überarbeiten
 - allgemeine User-Dokumenation erstellen (Dokumentation der ZHdK als Ausgangspunkt)
@@ -127,7 +105,6 @@ Technische Dokumentationen richten sich an Entwickler (technisches Verständnis 
 Anwender-Dokumentationen richten sich an Studierende und Mitarbeiter\*innen, die mit Madek arbeiten (Verständnis sämtlicher Aspekte der Anwendung von Madek auf der Basis des neuen Interfaces). 
 
 ### Installationsskript vereinfachen
-`Community`
 
 Die Installation von Madek ist kompliziert und benötigt fortgeschrittenes IT-Wissen, das nicht in jeder Institution vorausgesetzt werden kann. Zudem ist das aktuelle Instalattionsskript offensichtlich in manchen Teilen für die Bedürfnisse der ZHdK optimiert. 
 
@@ -135,6 +112,5 @@ Die Installation von Madek ist kompliziert und benötigt fortgeschrittenes IT-Wi
 - allgemeingültiges Installationsskript bzw. Modularisierung der Installation (wenn möglich)
 
 ### Session management neu aufbauen
-`HfG` `Community` `ZHdK`
 
 Beschrieben von Tom Schank am 12.07.2022 als Abhängigkeit in Zusammenhang mit der Input-API.
