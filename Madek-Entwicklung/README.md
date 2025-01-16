@@ -1,7 +1,10 @@
 # Madek Entwicklung
 
-`05.02.2024`
+`16.01.2025`
 
-Wir haben die Madek-API refactored und zu einer vollwertigen CRUD API (lesen, schreiben, verändern, löschen) ausgebaut. Die API v2 befindet sich aktuell in der code review.
+:white_check_mark: Refactor Madek-API: vollwertigen CRUD API  
+:white_check_mark: Hosting auf hauseigenen Servern  
+:white_check_mark: Nachhaltige maintenance personell sichergestellt
 
-Langfristig wollen wir Madek als nachhaltige, community-driven Software etablieren. 
+:large_blue_circle: Präsentations-Website "Schaufenster" in Arbeit  
+:large_blue_circle: Input-Interface in Arbeit  
