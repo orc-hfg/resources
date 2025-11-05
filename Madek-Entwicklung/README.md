@@ -1,6 +1,6 @@
 # Madek Entwicklung
 
-`16.01.2025`
+`05.11.2025`
 
 :white_check_mark: Refactor Madek-API: vollwertigen CRUD API.  
 :white_check_mark: Hosting auf hauseigenen Servern.  
