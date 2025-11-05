@@ -93,15 +93,14 @@ Dienen z. B. in Software, Webseiten und Übersetzungsdatenbanken. Aufbau: Sprach
 
 Damit können Dialekte technisch erfasst werden, ohne neue ISO-Sprachcodes zu schaffen.
 
-**Das Problem in unserem Fall:**
+**Das Problem in unserem Fall: zu unflexibel.**
 
-"Badisch" ist innerhalb der ISO-639-Norm nicht definiert, sondern nur „deu“ (Deutsch). Es gibt keine eigenen Codes für regionale Varianten wie Schwäbisch, Pfälzisch, Fränkisch oder eben Badisch.  
--> zu unflexibel
+"Badisch" ist innerhalb der ISO-639-Norm nicht definiert, sondern nur „deu“ (Deutsch). Es gibt keine eigenen Codes für regionale Varianten wie Schwäbisch, Pfälzisch, Fränkisch oder eben Badisch. 
 
 b) CLDR (Unicode Common Locale Data Repository):
 
 Enthält standardisierte Sprach- und Regionsvarianten, z. B. für Lokalisierungen (Datum, Währung, Schreibweise). Wird von großen Plattformen wie Google oder Apple verwendet.
 
 #### Links
-https://www.loc.gov/standards/iso639-2/php/code_list-txt.php
+https://www.loc.gov/standards/iso639-2/php/code_list-txt.php  
 https://de.wikipedia.org/wiki/Liste_der_ISO-639-2-Codes
