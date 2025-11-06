@@ -1,3 +1,3 @@
-Best practice guides und workflows für die Digitalisierung analoger Audiomedien. 
+# Analoge Medien digitalisieren
 
-Status: in Bearbeitung
+Enthält best practice guides und workflows für die Digitalisierung analoger Audiomedien. 
