@@ -1,4 +1,4 @@
-# Felder für Sprachen standardisieren
+# Metadaten für Sprachen standardisieren
 > November 2025
 
 ## Ausgangslage
