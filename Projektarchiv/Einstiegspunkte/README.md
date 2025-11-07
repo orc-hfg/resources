@@ -15,7 +15,7 @@ Ein Set ist eine relationale Gruppierung, keine Containerstruktur.
 
 ### Der halbe Graph
 
-Im Grunde beschreibt die Set-Logik den halben Weg zum Graph-Modell: Man könnte Sets und Medieneinträge als Knoten in einem Graphen betrachten. Beziehungen wie *enthält*, *ist Teil von*, *verweist auf* würden dann als Kanten modelliert. Auf diese Weise ließen sich hierarchische *und* nicht-hierarchische Beziehungen parallel abbilden. Da aber das System keine explizite Kanten-Logik unterstützt (also keine eigene Datenstruktur für Relationen zwischen Objekten), lassen sich Graph-Beziehungen nicht abbilden. 
+Im Grunde beschreibt die Set-Logik (Mengen-Logik) den halben Weg zum Graph-Modell: Man könnte Sets und Medieneinträge als Knoten in einem Graphen betrachten. Beziehungen wie *enthält*, *ist Teil von*, *verweist auf* würden dann als Kanten modelliert. Auf diese Weise ließen sich hierarchische *und* nicht-hierarchische Beziehungen parallel abbilden. Da aber das System keine explizite Kanten-Logik unterstützt (also keine eigene Datenstruktur für Relationen zwischen Objekten), lassen sich Graph-Beziehungen nicht abbilden. Madek basiert technisch auf einer objektrelationalen PostgreSQL-Datenbank.
 
 Eine Möglichkeit könnte sein, semantische Graph-Beziehungen teilweise herzustellen, indem die Bestandteile eines Projekts auf ihr Projekt-Set explizit verweisen. Aber 1. ist eine solche Refernzierung aktuell (November 2025) technisch nicht verfügbar, 2. wäre es aus redaktioneller Sicht mühsam und fehleranfällig, da jeder Bestandteil (Set, Medieneintrag) individuell mit dem Projekt-Set verknüpft werden müsste; natürlich müsste auch das User Interfacedie Arbeit mit Referenzierungen unterstützen (UX Design).
 
