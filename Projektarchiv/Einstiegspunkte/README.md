@@ -17,11 +17,11 @@ Ein Set ist eine relationale Gruppierung, keine Containerstruktur.
 
 Im Grunde beschreibt die Set-Logik den halben Weg zum Graph-Modell: Man könnte Sets und Medieneinträge als Knoten in einem Graphen betrachten. Beziehungen wie *enthält*, *ist Teil von*, *verweist auf* würden dann als Kanten modelliert. Auf diese Weise ließen sich hierarchische *und* nicht-hierarchische Beziehungen parallel abbilden. Da aber das System keine explizite Kanten-Logik unterstützt (also keine eigene Datenstruktur für Relationen zwischen Objekten), lassen sich Graph-Beziehungen nicht abbilden. 
 
-Eine Möglichkeit könnte sein, semantische Graph-Beziehungen teilweise herzustellen, indem die Bestandteile eines Projekts auf ihr Projekt-Set explizit verweisen. Aber 1. ist eine solche Referenzierung in Madek technisch nicht vorgesehen, 2. wäre eine solche Praxis aus redaktioneller Sicht mühsam und fehleranfällig, da jeder Bestandteil (Set, Medieneintrag) individuell mit dem Projekt-Set verknüpft werden müsste, ohne dass die Referenzierung umgekehrt im Projekt-Set sichtbar oder automatisch aktualisiert werden würde.
+Eine Möglichkeit könnte sein, semantische Graph-Beziehungen teilweise herzustellen, indem die Bestandteile eines Projekts auf ihr Projekt-Set explizit verweisen. Aber 1. ist eine solche Refernzierung aktuell (November 2025) technisch nicht verfügbar, 2. wäre es aus redaktioneller Sicht mühsam und fehleranfällig, da jeder Bestandteil (Set, Medieneintrag) individuell mit dem Projekt-Set verknüpft werden müsste; natürlich müsste auch das User Interfacedie Arbeit mit Referenzierungen unterstützen (UX Design).
 
 ## Projekte
 
-Wie gesagt, arbeiten wir mit Projekten. Dabei zeigt sich eine Schwierigkeit der ausschließlich relationalen Beziehung: *Inhaltlich* sind Projekte hierarchisch organisiert:
+Wie gesagt, arbeiten wir hauptsächlich mit Projekten. Dabei zeigt sich eine Schwierigkeit der ausschließlich relationalen Beziehung: *Inhaltlich* betrachtet sind Projekte hierarchisch organisiert:
 
 - Projekt-Set
   - Medieneintrag 1
@@ -32,13 +32,13 @@ Wie gesagt, arbeiten wir mit Projekten. Dabei zeigt sich eine Schwierigkeit der 
 
 Ohne Kennzeichnung von Projekt-Sets weiß das System nicht, ob ein Set ein Projekt (eine abgeschlossene inhaltliche Einheit), einen Teilbereich innerhalb eines Projekts oder etwas ganz anderes beschreibt.
 
-Auch projektbezogene Anwendungen, die Daten über die API von Madek abrufen und weiterverarbeiten, behandeln dann alle Sets gleichrangig, und es entsteht ein "flaches Chaos". Alles erscheint gleichrangig, auch wenn es semantisch differenziert ist. Wir entwickeln zwei solcher Anwendungen: Project Uploader (Input-Modul) und Schaufenster (Output-Modul).
+Auch projektbezogene Anwendungen, die Daten über die API von Madek abrufen und weiterverarbeiten, behandeln alle Sets gleichrangig. Die Differenzierungen auf semantischer Ebene sind nicht verfügbar. Wir entwickeln zwei solcher Anwendungen: Project Uploader (Input-Modul) und Schaufenster (Output-Modul).
 
 ## Der Projekt-Anker
 
 Unsere Lösung ist folgende: Wir realisieren ein Hybridmodell und führen über die Metadaten eine semantische Unterscheidungsebene innherhalb der bestehenden Set-Logik ein, ohne die technische Grundlage (also das relationale Set-Modell) zu verändern. 
 
-Das Metadatum `settings:is_node` dient als Marker, um Sets mit besonderer semantischer Rolle zu kennzeichnen:
+Das technische Metadatum `settings:is_node` dient als Marker, um Sets mit besonderer semantischer Rolle zu kennzeichnen:
 
 `is_node = true` → Das Set repräsentiert einen Einstiegspunkt (ein Projekt).  
 `is_node = false` → Das Set ist eine thematische oder technische Sammlung, kein Einstiegspunkt (Projektanker).
