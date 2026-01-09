@@ -36,12 +36,12 @@ Auch projektbezogene Anwendungen, die Daten über die API von Madek abrufen und 
 
 ## Der Projekt-Anker
 
-Unsere Lösung ist folgende: Wir realisieren ein Hybridmodell und führen über die Metadaten eine semantische Unterscheidungsebene innherhalb der bestehenden Set-Logik ein, ohne die technische Grundlage (also das relationale Set-Modell) zu verändern. 
+Unsere Lösung ist folgende: Wir realisieren ein Hybridmodell und führen über die Metadaten eine semantische Unterscheidungsebene innerhalb der bestehenden Set-Logik ein, ohne die technische Grundlage (also das relationale Set-Modell) zu verändern. 
 
 Das technische Metadatum `settings:is_node` dient als Marker, um Sets mit besonderer semantischer Rolle zu kennzeichnen:
 
-`is_node = true` → Das Set repräsentiert einen Einstiegspunkt (ein Projekt).  
-`is_node = false` → Das Set ist eine thematische oder technische Sammlung, kein Einstiegspunkt (Projektanker).
+`is_node = true` → Das Set repräsentiert einen Einstiegspunkt (ein Projekt-Anker).  
+`is_node = false` → Das Set ist "bloß" eine thematische oder technische Sammlung, kein Einstiegspunkt.
 
 Damit entsteht innerhalb des flachen Set-Universums eine Schicht von *Pseudo-Knoten*, die als Einstiegspunkte bzw. Oberstrukturen fungieren. Diese Pseudo-Knoten bilden die "Wurzelknoten" eines Graphen nach, wobei die Kanten (Beziehungen) weiterhin nur implizit existieren.
 
